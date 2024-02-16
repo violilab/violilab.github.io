@@ -1,47 +1,17 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Repositories
+description:
 nav: true
 nav_order: 4
 ---
 
-## GitHub users
+## NeCLAS
 
-{% if site.data.repositories.github_users %}
+*[Source](https://gitlab.eecs.umich.edu/violigroup/ml/neclas)* | 
+*[CodeOcean Code Capsule](https://doi.org/10.24433/CO.8157811.v1)* | 
+*[Paper](https://doi.org/10.1038/s43588-023-00438-x)*
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-## GitHub Repositories
-
-{% if site.data.repositories.github_repos %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+> **NeCLAS**, **Ne**ural **C**oarse-graining with **L**ocation **A**gnostic **S**ets, is a general, rapid, robust, and efficient machine learning pipeline that, with only structural information, predicts the location of nanoscale interactions.
+> 
