@@ -2,24 +2,45 @@
 layout: default
 ---
 <div class="post">
-    <header class="post-header">
-        <h1 class="post-title">
-            {{ page.page_data.name }}
-        </h1>
-        {% if page.page_data.uniquename %}
+    <header class="post-header" style="display: flex; align-items: center;">
+        <!-- Profile image block -->
+        {% if page.page_data.headshot %}
+        <div style="flex: 0 0 auto; margin-right: 20px;">
+            {% assign profile_image_path = page.page_data.headshot | prepend: '/assets/img/headshots/' %}
+            {% if profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width:
+            576px) 30vw, 95vw{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes
+            alt=member.name %}
+        </div>
+        {% endif %}
+    
+        <!-- Text block -->
+        <div style="flex: 1 1 auto;">
+            <h1 class="post-title">
+                {{ page.page_data.name }}
+            </h1>
+            {% if page.page_data.uniquename %}
             <a href="mailto:{{ page.page_data.uniquename }}@umich.edu" title="email">
                 <i class="fa-solid fa-envelope">&nbsp;</i>{{ page.page_data.uniquename }}@umich.edu
             </a>
-        {% endif %}
-        {% if page.page_data.address %}
+            {% endif %}
+            {% if page.page_data.address %}
             <div>
-                <i class="fa-solid fa-map-marker-alt" title="address" style="display: inline-block; vertical-align: center;"></i>
+                <i class="fa-solid fa-map-marker-alt" title="address"
+                    style="display: inline-block; vertical-align: center;"></i>
                 <div style="display:inline-block; vertical-align: top;">
                     {{ page.page_data.address | newline_to_br }}
                 </div>
             </div>
-        {% endif %}
+            {% endif %}
+        </div>
     </header>
+
 
     <article>
         <div class="cv">

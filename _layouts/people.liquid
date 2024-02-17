@@ -1,0 +1,25 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {% if page.members %}
+      {% for member in page.members %}
+        <div>
+          <hr>
+          <h2><a href="{{ member.uniquename }}">{{ member.name }}</a></h2>
+          <div class="profile">
+            {% assign profile_image_path = member.uniquename | prepend: 'assets/img/headshots/' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=member.name %}
+            </div>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
