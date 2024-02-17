@@ -1,0 +1,68 @@
+name: Paolo Elvati
+uniquename: elvati
+address: |
+  3005A EECS
+  1301 Beal, Ann Arbor, MI 48109
+cv:
+  - title: Academic Interests
+    type: list
+    contents:
+      - Nano-Bio interactions
+      - Nanoparticles kinetics in gas phase
+      - Chiral nanoparticles
+      - Molecular dynamics
+      - Kinetic Monte Carlo
+
+  - title: Education
+    type: time_table
+    contents:
+      - title: Ph.D. Chemistry
+        year: 2009
+        institution: Scuola Normale Superiore, Pisa, Italy
+        description: Summa cum laude
+      - title: 2nd level diploma Chemistry
+        year: 2005
+        institution: Scuola Normale Superiore, Pisa, Italy
+        description: Summa cum laude
+      - title: B.S. and M.Sc. Chemistry
+        year: 2004
+        institution: University of Pisa, Pisa, Italy
+        description: Summa cum laude
+
+  - title: Professional Affiliations
+    type: time_table
+    contents:
+      - title: Fellow
+        institution: Materials Research Society (MRS)
+        year: 2012
+      - title: Fellow
+        institution: Combustion Institute (CI)
+        year: 2012
+      - title: Fellow
+        institution: American Chemical Society (ACS)
+        year: 2010
+
+  - title: Appointments
+    type: time_table
+    contents:
+      - title: Associate Research Scientist
+        institution: Mechanical Engineering, University of Michigan
+        year: 2020
+      - title: Assistant Research Scientist
+        institution: Mechanical Engineering, University of Michigan
+        year: 2014
+      - title: Postdoctoral Research Fellow
+        institution: University of Michigan
+        year: 2010
+      - title: Research Fellow
+        institution: ETH Zurich
+        year: 2008
+      - title: Research Fellow
+        institution: University of Pisa
+        year: 2004
+
+  - title: Funding Sources
+    type: list
+    contents:
+      - AFOSR
+      - DoD/Tardec

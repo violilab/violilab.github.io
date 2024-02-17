@@ -1,0 +1,26 @@
+name: Matt Raymond
+uniquename: mattrmd
+cv:
+  - title: Academic Interests
+    type: list
+    contents:
+      - Machine learning
+      - Generative models for nanoscale systems
+      - Protein-nanoparticle interactions
+      - Feature selection and sparse models
+      - Optimization of ML models
+
+  - title: Education
+    type: time_table
+    contents:
+      - title: Ph.D. Electrical Engineering
+        year: Present
+        institution: University of Michigan, Ann Arbor, MI
+        description: Signal and Image Processing and Machine Learning track
+      - title: M.Sc. Computer Science
+        year: 2022
+        institution: University of Michigan, Ann Arbor, MI
+      - title: B.Sc. Computer Science
+        year: 2020
+        institution: Chapman University, Orange, CA
+        description: Magna cum laude
