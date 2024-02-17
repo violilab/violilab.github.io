@@ -49,6 +49,13 @@ footer_fixed: false
 # Dimensions
 max_width: 800px
 
+# -----------------------------------------------------------------------------
+# Badges
+# -----------------------------------------------------------------------------
+
+altmetric_min_mentions: 1 # hide badges with less than this number of stars/forks/etc.
+altmetric_hide_no_mentions: true # hide badges with no mentions
+
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------

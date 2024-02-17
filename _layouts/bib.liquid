@@ -218,8 +218,8 @@
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
               class="altmetric-embed"
-              data-hide-no-mentions="true"
-              data-hide-less-than="15"
+              data-hide-no-mentions="{{ site.altmetric_hide_no_mentions }}"
+              data-hide-less-than="{{ site.altmetric_min_mentions }}"
               data-badge-type="2"
               data-badge-popover="right"
               {% if entry.eprint %}
