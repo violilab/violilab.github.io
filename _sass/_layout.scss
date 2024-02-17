@@ -38,6 +38,58 @@ body.sticky-bottom-footer {
   }
 }
 
+.hero-image {
+  position: absolute; // Positioned absolutely relative to its first positioned ancestor
+  top: 0; // Align to the top of the viewport.
+  left: 0; // Align to the left of the viewport.
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1; // Lower z-index to ensure content flows over it
+
+  img {
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    max-width: none; // Allow the image to exceed its natural width
+
+    @media (min-aspect-ratio: 16/9) {
+      width: 100vw;
+      height: auto;
+    }
+  }
+
+  .hero-headline,
+  .hero-tagline {
+    position: absolute;
+    color: white;
+    z-index: 2; // Ensure text appears over the image
+    
+    &.hero-headline {
+      top: 10%;
+      font-size: 4em;
+      left: 5%;
+      text-align: left;
+    }
+    
+    &.hero-tagline {
+      bottom: 10%;
+      font-size: 2em;
+      text-align: right;
+      right: 5%;
+    }
+  }
+}
+
+// Adjust the padding-top of the main content container to ensure it starts after the hero image
+.main-content {
+  padding-top: 100vh; // This should be equal to the height of the hero image
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************

@@ -1,0 +1,69 @@
+name: Angela Violi
+uniquename: avioli
+address: |
+  3005B EECS
+  1301 Beal, Ann Arbor, MI 48109
+cv:
+  - title: Academic Interests
+    type: list
+    contents:
+      - Reaction Mechanisms for Real Fuels
+      - Nanoparticle Growth and Self-assembly
+      - Nanoparticle Interactions with Biomolecular Systems
+      - Molecular Simulations
+      - Applied Chemical Kinetics
+      - Aerosols
+
+  - title: Education
+    type: time_table
+    contents:
+      - title: PostDoc in Chemical Engineering
+        institution: University of Utah, Salt Lake City, UT
+        year: 1999-2001
+      - title: PhD in Chemical Engineering
+        institution: University of Naples “Federico II”, Naples, Italy
+        year: 1999
+      - title: Ms.S. in Chemical Engineering
+        institution: University of Naples “Federico II”, Naples, Italy
+        year: 1994
+
+  - title: Experience
+    type: time_table
+    contents:
+      - title: Professor
+        institution: University of Michigan, MI
+        year: 2015
+        description: Mechanical Engineering, Biomedical Engineering, Macromolecular Science and Engineering, Biophysics, Applied Physics, Chemical Engineering
+      - title: Associate Professor
+        institution: University of Michigan, MI
+        year: 2009 - 2015
+        description: Mechanical Engineering, Biomedical Engineering, Chemical Engineering
+      - title: Assistant Professor
+        institution: University of Michigan, MI
+        year: 2006 - 2009
+        description: Mechanical Engineering, Chemical Engineering
+      - title: Assistant Professor
+        institution: University of Michigan, MI
+        year: 2006 - 2009
+        description: Biomedical Engineering
+      - title: Research Professor
+        institution: University of Utah, UT
+        year: 2004 - 2005
+        description: Chemistry
+      - title: Research Scientist
+        institution: Center for the Simulation of Accidental Fires and Explosions (C-SAFE), University of Utah, UT
+        year: 1999 - 2005
+      - title: Research Associate
+        institution: University of Naples “Federico II”, Naples, Italy
+        year: 1999
+        description: Chemical Engineering
+      - title: Research Associate
+        institution: Institute of Research on Combustion (IRC), Naples, Italy
+        year: 1995 - 1996
+
+  - title: Honors and Awards
+    type: time_table
+    contents:
+      - year: Placeholder
+        items:
+          - Placeholder awards and honors to be listed here.

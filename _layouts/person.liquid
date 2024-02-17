@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<div class="post">
+    <header class="post-header">
+        <h1 class="post-title">
+            {{ page.page_data.name }}
+        </h1>
+        {% if page.page_data.uniquename %}
+            <a href="mailto:{{ page.page_data.uniquename }}@umich.edu" title="email">
+                <i class="fa-solid fa-envelope">&nbsp;</i>{{ page.page_data.uniquename }}@umich.edu
+            </a>
+        {% endif %}
+        {% if page.page_data.address %}
+            <div>
+                <i class="fa-solid fa-map-marker-alt" title="address" style="display: inline-block; vertical-align: center;"></i>
+                <div style="display:inline-block; vertical-align: top;">
+                    {{ page.page_data.address | newline_to_br }}
+                </div>
+            </div>
+        {% endif %}
+    </header>
+
+    <article>
+        <div class="cv">
+            {% for entry in page.page_data.cv %}
+            <a class="anchor" id="{{ entry.title }}"></a>
+            <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+                <div>
+                    {% if entry.type == 'list' %}
+                    {% include cv/list.liquid %}
+                    {% elsif entry.type == 'map' %}
+                    {% include cv/map.liquid %}
+                    {% elsif entry.type == 'nested_list' %}
+                    {% include cv/nested_list.liquid %}
+                    {% elsif entry.type == 'time_table' %}
+                    {% include cv/time_table.liquid %}
+                    {% elsif entry.type == 'list_groups' %}
+                    {% include cv/list_groups.liquid %}
+                    {% else %}
+                    {{ entry.contents }}
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </article>
+</div>
