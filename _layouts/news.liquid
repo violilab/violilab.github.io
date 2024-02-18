@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="news">
+    {% assign sorted_projects = site.news | sort: "date" | reverse %}
+    
+    {% assign years = "" %}
+    
+    {% for project in sorted_projects %}
+        {% assign project_year = project.date | date: "%Y" %}
+        {% if years contains project_year %}
+            <!-- Year already included, do nothing -->
+        {% else %}
+            <!-- Add the new year to the string -->
+            {% assign years = years | append: project_year | append: "," %}
+        {% endif %}
+    {% endfor %}
+    
+    <!-- Split the years string into an array for iteration -->
+    {% assign years = years | split: "," %}
+    
+    {% for year in years %}
+        <h2 class="bibliography">{{ year }}</h2>
+        <ol class="bibliography">
+            {% for project in sorted_projects %}
+                {% assign project_year = project.date | date: "%Y" %}
+                
+                {% if project_year == year %}
+                    <li>
+                        <h3 data-toc-skip="">{{ project.title }}</h3>
+                        <p>{{ project.content }}</p>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+    {% endfor %}
+</div>
