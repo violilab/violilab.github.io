@@ -26,7 +26,8 @@
   doi          = {10.1021/acsanm.3c00174},
   url          = {https://doi.org/10.1021/acsanm.3c00174},
   dimensions   = {true},
-  cover        = {true}
+  cover        = {true},
+  preview      = {elvati2023molecular.jpg}
 }
 @article{saldinger2023machine,
   title        = {A machine learning framework to predict the aggregation of polycyclic aromatic compounds},
@@ -41,7 +42,8 @@
   url          = {https://www.sciencedirect.com/science/article/pii/S154074892200459X},
   keywords     = {Molecular dynamics, Dimerization, Free energy calculations, Nucleation, Soot},
   abstract     = {The physical aggregation of polycyclic aromatic compounds (PACs) is a key step in soot inception. In this work, we set out to elucidate which molecular properties of PACs influence the physical growth process and develop a machine learning framework to quantitatively relate these features to the propensity of PACs to physically dimerize. To this end, we identify a pool of compounds with a diverse range of properties and create a dataset of PAC monomers along with their calculated free energies of dimerization, obtained via molecular dynamics simulations enhanced by well-tempered Metadynamics. We then demonstrate that a machine learning model based on the least absolute shrinkage and selection operator (Lasso) is able to quantitatively learn how molecular features contribute to physical aggregation and predict the free energy of dimerization for new pairs of molecules. Results show that our model is able to accurately determine the stability of dimers obtained from both homo- and hetero-molecular dimerization cases. Our approach provides also a data driven method to determine the molecular features most important to predicting the dimer stability. Indeed, we identified size, shape, oxygenation, and presence of rotatable bonds as the most influential characteristics of PACs that contribute to physical dimerization. This work highlights the molecular complexity of the PAC monomers that must be accounted for in order to accurately represent physical aggregation. We anticipate that our approach is key to modeling soot inception as it allows for the efficient prediction of dimerization propensity from easily calculable molecular features.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {saldinger2023machine.jpg}
 }
 @article{kwon2023ab,
   title        = {Ab Initio Thermochemistry of Highly Flexible Molecules for Thermal Decomposition Analysis},
@@ -77,28 +79,15 @@
   abstract     = {A diverse range of polycyclic aromatic compounds (PACs) is thought to exist in flame environments before and during soot inception. This work seeks to develop a machine learning (ML)-based soot inception model that considers detailed and diverse PAC properties such as oxygenation, aliphatic content, radical character, size, and shape. To this end, temporal rates of change of PAC properties were computed by the stochastic modelling code SNapS2 and used as input to an ML model that predicts soot inception rate. The model is trained using experimentally-derived soot inception rates for three atmospheric pressure laminar premixed ethylene/air flames. An ML model (kernel ridge regression with a linear kernel) was developed to predict the soot inception rate in the three premixed flames. The soot inception rate predictions from this SNapS2-informed ML model outperformed the predictions from both the advanced soot modelling CFD code CoFlame and an ML model which used CFD-determined inputs (temperature and species concentrations). The final model had an R2 value of approximately 0.71 and a mean absolute error approximately 25\% of the target values. The performance of the SNapS2-informed model suggests that detailed PAC properties are important to consider in inception modelling. While expanding this approach to other types of flames and fuels is crucial for future improvement to the model's accuracy and generality, this methodology provides a successful framework for the current system. The success of this method demonstrates that ML can offer improvements in accuracy compared to current CFD inception models and the highlights the potential for ML in soot predictions.},
   dimensions   = {true}
 }
-@article{luyet2023low1,
-  title        = {{Low-THz} Vibrations of Biological Membranes},
-  author       = {Luyet, Chloe and Elvati, Paolo and Vinh, Jordan and Violi, Angela},
-  year         = 2023,
-  month        = jan,
-  journal      = {Membranes (Basel)},
-  address      = {Switzerland},
-  volume       = 13,
-  number       = 2,
-  abstract     = {A growing body of work has linked key biological activities to the mechanical properties of cellular membranes, and as a means of identification. Here, we present a computational approach to simulate and compare the vibrational spectra in the low-THz region for mammalian and bacterial membranes, investigating the effect of membrane asymmetry and composition, as well as the conserved frequencies of a specific cell. We find that asymmetry does not impact the vibrational spectra, and the impact of sterols depends on the mobility of the components of the membrane. We demonstrate that vibrational spectra can be used to distinguish between membranes and, therefore, could be used in identification of different organisms. The method presented, here, can be immediately extended to other biological structures (e.g., amyloid fibers, polysaccharides, and protein-ligand structures) in order to fingerprint and understand vibrations of numerous biologically-relevant nanoscale structures.},
-  keywords     = {Staphylococcus aureus; bacterial identification; mechanical vibration; membranes; molecular dynamics},
-  language     = {en},
-  dimensions   = {true},
-  altmetric    = 139348571
-}
-@article{luyet2023low2,
+@article{luyet2023low,
   title        = {Low-THz Vibrations of Biological Membranes},
   author       = {Luyet, Chloe and Elvati, Paolo and Vinh, Jordan and Violi, Angela},
   year         = 2023,
   journal      = {Membranes},
+  address      = {Switzerland},
   volume       = 13,
   number       = 2,
+  month        = jan,
   doi          = {10.3390/membranes13020139},
   issn         = {2077-0375},
   url          = {https://www.mdpi.com/2077-0375/13/2/139},
@@ -106,7 +95,8 @@
   pubmedid     = 36837641,
   abstract     = {A growing body of work has linked key biological activities to the mechanical properties of cellular membranes, and as a means of identification. Here, we present a computational approach to simulate and compare the vibrational spectra in the low-THz region for mammalian and bacterial membranes, investigating the effect of membrane asymmetry and composition, as well as the conserved frequencies of a specific cell. We find that asymmetry does not impact the vibrational spectra, and the impact of sterols depends on the mobility of the components of the membrane. We demonstrate that vibrational spectra can be used to distinguish between membranes and, therefore, could be used in identification of different organisms. The method presented, here, can be immediately extended to other biological structures (e.g., amyloid fibers, polysaccharides, and protein-ligand structures) in order to fingerprint and understand vibrations of numerous biologically-relevant nanoscale structures.},
   altmetric    = 141847588,
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {luyet2023low.jpg}
 }
 @article{saldinger2023domain,
   title        = {Domain-agnostic predictions of nanoscale interactions in proteins and nanoparticles},
@@ -124,9 +114,10 @@
   abstract     = {Although challenging, the accurate and rapid prediction of nanoscale interactions has broad applications for numerous biological processes and material properties. While several models have been developed to predict the interaction of specific biological components, they use system-specific information that hinders their application to more general materials. Here we present NeCLAS, a general and efficient machine learning pipeline that predicts the location of nanoscale interactions, providing human-intelligible predictions. NeCLAS outperforms current nanoscale prediction models for generic nanoparticles up to 10--20{\thinspace}nm, reproducing interactions for biological and non-biological systems. Two aspects contribute to these results: a low-dimensional representation of nanoparticles and molecules (to reduce the effect of data uncertainty), and environmental features (to encode the physicochemical neighborhood at multiple scales). This framework has several applications, from basic research to rapid prototyping and design in nanobiotechnology.},
   altmetric    = 147106209,
   dimensions   = {true},
-  google_scholar_id = {BzfGm06jWhQC}
+  google_scholar_id = {BzfGm06jWhQC},
+  preview      = {saldinger2023domain.jpg}
 }
-@article{shao2023elucidating1,
+@article{shao2023elucidating,
   title        = {Elucidating the polycyclic aromatic hydrocarbons involved in soot inception},
   author       = {Shao, Can and Wang, Qi and Zhang, Wen and Bennett, Anthony and Li, Yang and Guo, Junjun and Im, Hong G and Roberts, William L and Violi, Angela and Sarathy, S Mani},
   year         = 2023,
@@ -138,25 +129,8 @@
   pages        = 223,
   abstract     = {Polycyclic aromatic hydrocarbons are the main precursors to soot particles in combustion systems. A lack of direct experimental evidence has led to controversial theoretical explanations for the transition from gas-phase species to organic soot clusters. This work focuses on sampling infant soot particles from well-defined flames followed by analysis using state-of-the-art mass spectrometry. We found that PAH molecules present in soot particles are all stabilomers. Kinetic Monte Carlo simulations and thermodynamic stability calculations further identify the detected PAHs as peri-condensed and without aliphatic chains. Van der Waals forces can easily link PAHs of such size and shape to form PAH dimers and larger clusters under the specified flame conditions. Our results provide direct experimental evidence that soot inception is initiated by a physical process under typical flame conditions. This work improves our understanding of aerosol particulates, which has implications for their environmental and climate change impacts.},
   language     = {en},
-  dimensions   = {true}
-}
-@article{shao2023elucidating2,
-  title        = {Elucidating the polycyclic aromatic hydrocarbons involved in soot inception},
-  author       = {Shao, Can and Wang, Qi and Zhang, Wen and Bennett, Anthony and Li, Yang and Guo, Junjun and Im, Hong G. and Roberts, William L. and Violi, Angela and Sarathy, S. Mani},
-  year         = 2023,
-  month        = {Oct},
-  day          = 16,
-  journal      = {Communications Chemistry},
-  volume       = 6,
-  number       = 1,
-  pages        = 223,
-  doi          = {10.1038/s42004-023-01017-x},
-  issn         = {2399-3669},
-  url          = {https://doi.org/10.1038/s42004-023-01017-x},
-  abstract     = {Polycyclic aromatic hydrocarbons are the main precursors to soot particles in combustion systems. A lack of direct experimental evidence has led to controversial theoretical explanations for the transition from gas-phase species to organic soot clusters. This work focuses on sampling infant soot particles from well-defined flames followed by analysis using state-of-the-art mass spectrometry. We found that PAH molecules present in soot particles are all stabilomers. Kinetic Monte Carlo simulations and thermodynamic stability calculations further identify the detected PAHs as peri-condensed and without aliphatic chains. Van der Waals forces can easily link PAHs of such size and shape to form PAH dimers and larger clusters under the specified flame conditions. Our results provide direct experimental evidence that soot inception is initiated by a physical process under typical flame conditions. This work improves our understanding of aerosol particulates, which has implications for their environmental and climate change impacts.},
-  atlmetric    = 155439534,
   dimensions   = {true},
-  google_scholar_id = {LdasjJ6CEcoC}
+  preview      = {shao2023elucidating.jpg}
 }
 @article{zhuravlyov2023finite,
   title        = {Finite-size effects in the static structure factor $S(k)$ and \$S(0)\$ for a two-dimensional Yukawa liquid},
@@ -172,7 +146,8 @@
   issue        = 3,
   numpages     = 10,
   dimensions   = {true},
-  google_scholar_id = {cK4Rrx0J3m0C}
+  google_scholar_id = {cK4Rrx0J3m0C},
+  preview      = {zhuravlyov2023finite.jpg}
 }
 @article{barani2022multiphysics,
   title        = {A Multiphysics Modeling of Electromagnetic Signaling Phenomena at kHz-GHz Frequencies in Bacterial Biofilms},
@@ -207,7 +182,8 @@
   html         = {https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04910-9},
   altmetric    = 88424801,
   dimensions   = {true},
-  google_scholar_id = {tH6gc1N1XXoC}
+  google_scholar_id = {tH6gc1N1XXoC},
+  preview      = {baranwal2022struct2graph.jpg}
 }
 @article{cha2022unifying,
   title        = {Unifying structural descriptors for biological and bioinspired nanoscale complexes},
@@ -224,7 +200,8 @@
   url          = {https://www.nature.com/articles/s43588-022-00229-w},
   abstract     = {Biomimetic nanoparticles are known to serve as nanoscale adjuvants, enzyme mimics and amyloid fibrillation inhibitors. Their further development requires better understanding of their interactions with proteins. The abundant knowledge about protein--protein interactions can serve as a guide for designing protein--nanoparticle assemblies, but the chemical and biological inputs used in computational packages for protein--protein interactions are not applicable to inorganic nanoparticles. Analysing chemical, geometrical and graph-theoretical descriptors for protein complexes, we found that geometrical and graph-theoretical descriptors are uniformly applicable to biological and inorganic nanostructures and can predict interaction sites in protein pairs with accuracy >80{\%} and classification probability {\textasciitilde}90{\%}. We extended the machine-learning algorithms trained on protein--protein interactions to inorganic nanoparticles and found a nearly exact match between experimental and predicted interaction sites with proteins. These findings can be extended to other organic and inorganic nanoparticles to predict their assemblies with biomolecules and other chemical structures forming lock-and-key complexes.},
   dimensions   = {true},
-  altmetric    = 127478395
+  altmetric    = 127478395,
+  preview      = {cha2022unifying.jpg}
 }
 @article{kim2022uncertainty,
   title        = {Uncertainty-based weight determination for surrogate optimization},
@@ -238,7 +215,8 @@
   url          = {https://www.sciencedirect.com/science/article/pii/S0010218021005939},
   keywords     = {Fuel surrogate, Uncertainty, Multi-objective optimization, jet fuels},
   abstract     = {Fuel surrogates are simplified models that mimic the combustion characteristics of very complex real transportation fuels and enable a detailed description of the computational system for the targeted real fuels. Current efforts in surrogate development focus on matching multiple target properties of the real fuel using numerical optimization of species compositions. A way to solve the multi-objective optimization problem is to employ the weighted-sum approach with arbitrarily assigned weights. In this paper, we propose a novel approach to reduce such arbitrariness by incorporating physical information into the surrogate optimization process, leveraging uncertainties from experimental measurements and mixture property predictions to determine the weight of each target property. The underlying principle of this approach is assigning low weight for properties with high uncertainty since a tight emulation of that property is not necessary. We propose formulations that convert relative uncertainties of each target property into weights for multi-objective surrogate optimization, which penalize target properties with high uncertainties. The method is flexible enough to accommodate not only multiple uncertainty sources, but also users' preferences and the sensitivity of weights to uncertainty variations can be readily adjusted. The proposed method is applied to formulate surrogate mixtures for three reference target jet fuels (Jet-A POSF-10325, JP-8 POSF-10264, JP-5 POSF-10289), which have considerably different hydrocarbon compositions and properties. The results show that the surrogates developed by the uncertainty-based weight method emulate the target properties of fuels very closely, and they are able to capture the compositional characteristics of the target fuels as well.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {kim2022uncertainty.jpg}
 }
 @article{hubbard2022chiral,
   title        = {Chiral chromatography and surface chirality of carbon nanoparticles},
@@ -254,7 +232,8 @@
   eprint       = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/chir.23507},
   abstract     = {Abstract Chiral carbon nanoparticles (CNPs) represent a rapidly evolving area of research for optical and biomedical technologies. Similar to small molecules, applications of CNPs as well as fundamental relationships between their optical activity and structural asymmetry would greatly benefit from their enantioselective separations by chromatography. However, this technique remains in its infancy for chiral carbon and other nanoparticles. The possibility of effective separations using high performance liquid chromatography (HPLC) with chiral stationary phases remains an open question whose answer can also shed light on the components of multiscale chirality of the nanoparticles. Herein, we report a detailed methodology of HPLC for successful separation of chiral CNPs and establish a path for its future optimization. A mobile phase of water/acetonitrile was able to achieve chiral separation of CNPs derived from L- and D-cysteine denoted as L-CNPs and D-CNPs. Molecular dynamics simulations show that the teicoplanin-based stationary phase has a higher affinity for L-CNPs than for D-CNPs, in agreement with experiments. The experimental and computational findings jointly indicate that chiral centers of chiral CNPs are present at their surface, which is essential for the multiple applications of these chiral nanostructures and equally essential for interactions with biomolecules and circularly polarized photons.},
   dimensions   = {true},
-  cover        = {true}
+  cover        = {true},
+  preview      = {hubbard2022chiral.jpg}
 }
 @article{li2022distance,
   title        = {{Distance-dependent resonance energy transfer in alkyl-terminated Si nanocrystal solids}},
@@ -269,7 +248,8 @@
   issn         = {0021-9606},
   url          = {https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0079571/16541048/124705\_1\_online.pdf},
   abstract     = {{Understanding and controlling the energy transfer between silicon nanocrystals is of significant importance for the design of efficient optoelectronic devices. However, previous studies on silicon nanocrystal energy transfer were limited because of the strict requirements to precisely control the inter-dot distance and to perform all measurements in air-free environments to preclude the effect of ambient oxygen. Here, we systematically investigate the distance-dependent resonance energy transfer in alkyl-terminated silicon nanocrystals for the first time. Silicon nanocrystal solids with inter-dot distances varying from 3 to 5~nm are fabricated by varying the length and surface coverage of alkyl ligands in solution-phase and gas-phase functionalized silicon nanocrystals. The inter-dot energy transfer rates are extracted from steady-state and time-resolved photoluminescence measurements, enabling a direct comparison to theoretical predictions. Our results reveal that the distance-dependent energy transfer rates in Si NCs decay faster than predicted by the F\"{o}rster mechanism, suggesting higher-order multipole interactions.}},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {li2022distance.jpg}
 }
 @article{luyet2022structural,
   title        = {Structural characterization of PSMa1 functional amyloids in <em>Staphylococcus aureus</em> biofilm},
@@ -302,7 +282,8 @@
   numpages     = 10,
   abstract     = {Especially small values of the static structure factor \(S(k)\) at long wavelengths, i.e., small \(k\), were obtained in an analysis of experimental data for a two-dimensional dusty plasma in its liquid state. For comparison, an analysis of \(S(k)\) data was carried out for many previously published experiments with other liquids. This analysis indicates that the magnitude of \(S(k)\) at small \(k\) is typically in the range of 0.02–0.13. In contrast, the corresponding value for a dusty plasma liquid was found to be as small as 0.0139. Another basic finding for the dusty plasma liquid is that \(S(k)\) at small \(k\) generally increases with temperature, with its lowest value, noted above, occurring near the melting point. Simulations were carried out for the dusty plasma liquid, and their results are generally consistent with the experiment. Since a dusty plasma has a soft interparticle interaction, our findings support earlier theoretical suggestions that a useful design strategy for creating materials having exceptionally low values of \(S(0)\), so-called hyperuniform materials, is the use of a condensed material composed of particles that},
   dimensions   = {true},
-  altmetric    = 139348571
+  altmetric    = 139348571,
+  preview      = {zhuravlyov2022comparison.jpg}
 }
 @article{violi2021combustion,
   title        = {Combustion by-products and their health effects: Summary of the 16th international congress},
@@ -319,7 +300,8 @@
   abstract     = {The 16th International Congress on Combustion By-Products and their Health Effects (PIC2019) was held in Ann Arbor, Michigan, from July 10 to 12, 2019. For the last 28 years, this conference has served as an interdisciplinary platform for the discussion of the formation, environmental fate, health effects, policy, and remediation of combustion by-products. The technical areas for PIC2019 included mobile and stationary sources in urban environments, open fires, in- door air pollution, and halogenated pollutants. The congress was sponsored by the National Institute of Environmental Health Sciences (NIEHS), the U.S. EPA, the School of Public Health at the University of Michigan, the Civil and Environmental Engineering Department at the University of Michigan, the Mechanical Engineering Department at the University of Michigan, the Aerospace Engineering Department at the University of Michigan, and the Climate and Space Sciences and Engineering Department at the University of Michigan. Special features of the conference included a career path and round table discussion on translating research and engaging communities.},
   altmetric    = 88424801,
   dimensions   = {true},
-  google_scholar_id = {gVv57TyPmFsC}
+  google_scholar_id = {gVv57TyPmFsC},
+  preview      = {violi2021combustion.jpg}
 }
 @article{lanham2021scaling,
   title        = {{Scaling of silicon nanoparticle growth in low temperature flowing plasmas}},
@@ -336,7 +318,8 @@
   abstract     = {{Low temperature plasmas are an emerging method to synthesize high quality nanoparticles (NPs). An established and successful technique to produce NPs is using a capacitively coupled plasma (CCP) in cylindrical geometry. Although a robust synthesis technique, optimizing or specifying NP properties using CCPs, is challenging. In this paper, results from a computational investigation for the growth of silicon NPs in flowing inductively coupled plasmas (ICPs) using Ar/SiH4 gas mixtures of up to a few Torr are discussed. ICPs produce more locally constrained and quiescent plasma potentials. These positive plasma potentials produce an electrostatic trap for negatively charged NPs, which can significantly extend the residence time of NPs in the plasma, which in turn provides a controllable period for particle growth. The computational platforms used in this study consist of a two-dimensional plasma hydrodynamics model, a three-dimensional nanoparticle growth and trajectory tracking model, and a molecular dynamics simulation for deriving reactive sticking coefficients of silane radicals on Si NPs. Trends for the nanoparticle growth as a function of SiH4 inlet fraction, gas residence time, energy deposition per particle, pressure, and reactor diameter are discussed. The general path for particle synthesis is the trapping of small NPs in the positive electrostatic potential, followed by entrainment in the gas flow upon reaching a critical particle size. Optimizing or controlling NP synthesis then depends on the spatial distribution of plasma potential, the density of growth species, and the relative time that particles spend in the electrostatic trap and flowing through higher densities of growth species upon leaving the trap.}},
   dimensions   = {true},
   altmetric    = 116970900,
-  cover        = {true}
+  cover        = {true},
+  preview      = {lanham2021scaling.jpg}
 }
 @article{liu2021drug,
   title        = {On Drug-Membrane Permeability of Antivirals for SARS-CoV-2},
@@ -353,9 +336,10 @@
   url          = {10.1021/acs.jpclett.0c02397},
   abstract     = {One of the key parameters required to identify effective drugs is membrane permeability, as a compound intended for an intracellular target with poor permeability will have low efficacy. In this paper, we leverage a computational approach recently developed by our group to study the interactions between nanoparticles and mammalian membranes to study the time of entry of a variety of drugs into the viral envelope of coronavirus as well as cellular organelles. Using a combination of all-atoms molecular dynamics simulations and statistical analysis, we consider both drug characteristics and membrane properties to determine the behavior of 79 drugs and their interactions with the viral envelope, composed of the membrane and spike protein, as well as five other membranes that correspond to various mammalian compartments (lysosome, plasma, Golgi, mitochondrial, and endoplasmic reticulum membranes). The results highlight important trends that can be exploited for drug design, from the relatively high permeability of the viral envelope and the effect of transmembrane proteins, to the differences in permeability between organelles. When compared with bioavailability data present in the literature, the model results suggest a negative correlation between time of permeation and bioavailability of promising drugs. The method is general and flexible and can be employed for a variety of molecules, from small drugs to small nanoparticles, as well to a variety of biological membranes. Overall, the results indicate that this model can contribute to the identification of successful drugs as it predicts the ability of compounds to reach both intended and unintended intracellular targets.},
   html         = {10.1021/acs.jpclett.0c02397},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {liu2021drug.jpg}
 }
-@article{wang2021molecular1,
+@article{wang2021molecular,
   title        = {Molecular structures in flames: A comparison between SNapS2 and recent AFM results},
   author       = {Qi Wang AND Jacob C. Saldinger AND Paolo Elvati AND Angela Violi},
   year         = 2021,
@@ -369,23 +353,8 @@
   html         = {https://www.sciencedirect.com/science/article/pii/S1540748920303424},
   keywords     = {PAHs, Polycyclic aromatic compounds, Furans, H/C, Soot precursors},
   abstract     = {Models capturing the growth of polycyclic aromatic compounds (PACs) and nanoparticles in combustion have always faced a large degree of uncertainty due to the paucity of detailed direct experimental validation. In particular, data on molecular structures, chemical composition, size, cross-linking, and aliphatic chains is still very limited. In the past few years, we have developed an atomistic code, SNapS2, that models the formation of PACs in combustion conditions, providing information on the chemical and structural evolution of these compounds. In this paper, we present a detailed analysis of the compounds formed in a premixed ethylene-air flame that was previously characterized experimentally by AFM (Commodo et~al. 2019). The comparison is based on molecular structures and extends to other properties of PACs. The results demonstrate that SNapS2 is able to capture the vast array of PACs in terms of a large variety of functional groups. The simulations, confirmed to a large extent by the experimental data, show the presence of different types of oxygenated (e.g., phenol, ketone) and cyclic (acenaphthylene-type, acenaphthene-type, and fluorene-type five-membered rings) functional groups. Moreover, the structures that were not observed in the simulations (indane-type five-membered rings or six-membered rings containing oxygen) are missing due to the lack of formation pathways, highlighting the fact that important kinetic mechanisms are still missing in the literature. Finally, we observed that a preponderant number of high molecular mass PACs are curved, which may have an impact on their aggregation and sampling. Overall, while some discrepancies remain due to the inherent limitation of the model and the AFM techniques, this work demonstrates the unique capabilities of the SNapS2 code to provide insights on the structures and chemical pathways of PACs.},
-  dimensions   = {true}
-}
-@article{wang2021molecular2,
-  title        = {Molecular structures in flames: A comparison between SNapS2 and recent AFM results},
-  author       = {Qi Wang AND Jacob C. Saldinger AND Paolo Elvati AND Angela Violi},
-  year         = 2021,
-  journal      = {Proceedings of the Combustion Institute},
-  volume       = 38,
-  number       = 1,
-  pages        = {1133--1141},
-  doi          = {10.1016/j.proci.2020.06.250},
-  issn         = {1540-7489},
-  url          = {https://www.sciencedirect.com/science/article/pii/S1540748920303424},
-  html         = {https://www.sciencedirect.com/science/article/pii/S1540748920303424},
-  keywords     = {PAHs, Polycyclic aromatic compounds, Furans, H/C, Soot precursors},
-  abstract     = {Models capturing the growth of polycyclic aromatic compounds (PACs) and nanoparticles in combustion have always faced a large degree of uncertainty due to the paucity of detailed direct experimental validation. In particular, data on molecular structures, chemical composition, size, cross-linking, and aliphatic chains is still very limited. In the past few years, we have developed an atomistic code, SNapS2, that models the formation of PACs in combustion conditions, providing information on the chemical and structural evolution of these compounds. In this paper, we present a detailed analysis of the compounds formed in a premixed ethylene-air flame that was previously characterized experimentally by AFM (Commodo et~al. 2019). The comparison is based on molecular structures and extends to other properties of PACs. The results demonstrate that SNapS2 is able to capture the vast array of PACs in terms of a large variety of functional groups. The simulations, confirmed to a large extent by the experimental data, show the presence of different types of oxygenated (e.g., phenol, ketone) and cyclic (acenaphthylene-type, acenaphthene-type, and fluorene-type five-membered rings) functional groups. Moreover, the structures that were not observed in the simulations (indane-type five-membered rings or six-membered rings containing oxygen) are missing due to the lack of formation pathways, highlighting the fact that important kinetic mechanisms are still missing in the literature. Finally, we observed that a preponderant number of high molecular mass PACs are curved, which may have an impact on their aggregation and sampling. Overall, while some discrepancies remain due to the inherent limitation of the model and the AFM techniques, this work demonstrates the unique capabilities of the SNapS2 code to provide insights on the structures and chemical pathways of PACs.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview     = {wang2021molecular.jpg}
 }
 @article{saldinger2021stochastic,
   title        = {Stochastic and network analysis of polycyclic aromatic growth in a coflow diffusion flame},
@@ -400,7 +369,8 @@
   issue        = 7,
   abstract     = {An important step in predicting the growth of soot nanoparticles is understanding how gas phase variations affect the formation of their aromatic precursors. Once formed{,} these aromatic structures begin to assemble into nanoparticles and{,} regardless of the clustering process{,} the molecular properties of the aromatic precursors play an important role. Leveraging existing experimental data collected from a coflow Jet A-1 surrogate diffusion flame{,} in this paper we report on a detailed study of the spatial evolution of molecular structures of polycyclic aromatic compounds (PACs) and their corresponding formation pathways. To this end{,} we employed the SNapS2 kinetic Monte Carlo software to simulate the chemical evolution of PACs along multiple streamlines. The results show that growth only occurs along streamlines that traverse regions of high acetylene concentrations in the center of the flame. The PACs predicted in various conditions show diverse chemical properties{,} including aliphatic chains{,} five-membered{,} and heteroaromatic rings. PACs in streamlines close to the flame wings begin growing immediately due to the high temperature and large amounts of radical species{,} while PACs originating along inner streamlines do not appreciably grow until they pass through an area characterized by high radical concentrations. Using graph theory and network analysis{,} we investigated the complex reaction network generated by SNapS2 and determined that the growth pathways of many PACs center around a few stable structures that also promote oxygen addition reactions due to their morphology and long lifetimes. These pathways play a more significant role along streamlines near the centerline{,} compared to the flame wings{,} which show more variety due to the highly reactive environment encountered during early growth. The results of this study provide insights on the reaction pathways that determine the properties of PACs at different flame locations as well as information on the chemical characteristics of the formed PACs{,} with emphasis on oxygenated structures.},
   altmetric    = 100339923,
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {saldinger2021stochastic.jpg}
 }
 @article{he2021oxidation,
   title        = {Oxidation of 2,6-dimethylheptane at low temperature: Kinetic modeling and experimental study},
@@ -415,7 +385,8 @@
   html         = {https://www.sciencedirect.com/science/article/pii/S001623612032216X},
   keywords     = {Branched hydrocarbon, Low-temperature oxidation, /DFT, Rapid compression machine, Biofuels},
   abstract     = {Branched alkanes represent an important class of compounds in conventional fuels and some bio-derived fuels. This study is dedicated to the investigation of the low-temperature oxidation chemistry of 2,6-dimethylheptane using a combination of experimental and computational methods. All the reactants, transition states, and products in the first oxidation stage, which are crucial to the initiation reactions in the low-temperature reaction chain, were optimized through the B3LYP/CBSB7 level of theory and a kinetic mechanism that included the new reaction pathways was assembled. Ignition delay time measurements were carried out in a rapid compression machine and the results were compared with modeling predictions. The kinetic mechanism is able to capture both the first and total ignition delay times with a root-mean-square deviation of 39.6\%. In addition, sensitivity analysis is performed to quantify the impact of newly developed chemistry of 2,6-dimethylheptane on ignition delay time. Rate parameters found in this study may be applicable to other branched alkanes with similar molecular structure.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {he2021oxidation.jpg}
 }
 @article{shi2021growth,
   title        = {On the growth of Si nanoparticles in non-thermal plasma: physisorption to chemisorption conversion},
@@ -430,7 +401,8 @@
   doi          = {10.1088/1361-6463/ac0b71},
   url          = {https://dx.doi.org/10.1088/1361-6463/ac0b71},
   abstract     = {Non-thermal plasma systems offer unique opportunities in the fields of bio-imaging, drug delivery, photovoltaics, microelectronics manufacturing. Such interests are largely inspired by the fact that hot plasma electrons coexist with neutral species and ions close to room-temperature under non-thermal plasma conditions. Modeling of these systems requires a deep understanding of the atomistic processes underlying the rich chemistry of the various radicals and ions with the nascent nanoparticle (NP) surface. A key parameter for determining the contribution of a certain radical/ion species to the NP surface growth, called sticking coefficient, is computed as a weighted sum from the simulated sticking outcomes with different collision velocities drawn from a Maxwell–Boltzmann distribution at certain temperatures. In this work, the collisions of SiH x  (x\hspace{0.167em}=\hspace{0.167em}1–4) fragments and silicon cluster (Si4, Si2H6, and Si29H36) surfaces, responsible for the sticking coefficients, are simulated by molecular dynamics with a reactive force field. The dependence of sticking coefficients on temperature, H coverage of both silane fragments and cluster surfaces, and the size of the cluster, are systematically examined. And the mechanism underlying the sticking events, specifically the conversion of physical aggregation to chemisorption is investigated to better understand the complex interplay between factors influencing the surface growth. The detailed and multi-parameter model of sticking coefficients, accompanied by the mechanism study of physisorption to chemisorption conversion, provides a more accurate and robust approximation of surface growth rate using sticking coefficients, and a deeper understanding of surface growth processes, for the wider non-thermal plasma simulation community.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {shi2021growth.jpg}
 }
 @article{shi2021reaction,
   title        = {Reaction pathways for the formation of five-membered rings onto polyaromatic hydrocarbon framework},
@@ -445,7 +417,8 @@
   html         = {https://www.sciencedirect.com/science/article/pii/S0016236120320196},
   keywords     = {PAHs,  methods, Soot precursors, Reaction rates},
   abstract     = {Experimental and theoretical evidences accumulated over the years have highlighted the role of polycyclic aromatic hydrocarbons as molecular precursors to soot particles. However, many of their physical and chemical characteristics are still under debate, as well as the mechanisms that drive their transition from gaseous species to solid carbonaceous particles. The formation of five-membered rings can be described with three types of reactive sites present on hydrocarbons: (1) a ``free-edge'' reactive site and a C3 gas phase species (C2~+~C3), (2) a ``zig-zag'' site and a C2 gas phase species (C3~+~C2), and (3) an ``armchair'' site and a C1 gas phase species (C4~+~C1). In this work, we focus our attention on the last two categories and use ab initio G3-type electronic structure calculations to explore systematically possible reaction pathways leading to the formation of five-membered rings. Specifically, our study reports on reaction pathways leading to the formation of acenaphthene and acenaphthylene starting from the zig-zag type site on naphthalene and to the formation of five-membered ring in the form of fluorene and 4H-cyclopenta[def]phenanthrene starting from the ``armchair'' site on biphenyl or phenanthrene. The relative importance of the new reaction pathways has been investigated in a 0-D Closed Homogeneous Batch Reactor, where the conditions are taken from experimental data. Furthermore, the new reaction pathways, together with temperature dependent rate constants, provide a more complete description of the formation of embedded five-membered rings, such as methylene-bridged PAHs identified in catechol pyrolysis, that can play an important role not only in the gas-phase chemistry of aromatics but also as pathways to five-membered rings on armchair sites and cross-linking for soot models.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview     = {shi2021reaction.jpg}
 }
 @article{harirchi2020sparse,
   title        = {On sparse identification of complex dynamical systems: A study on discovering influential reactions in chemical reaction networks},
@@ -475,7 +448,8 @@
   keywords     = {PAHs, Oxygen, Surrogate, SNapS2},
   abstract     = {Understanding the formation of soot precursors requires properly taking into account their diverse structure and chemistry. To study the extent of this variety in a realistic combustion system, we simulated the growth of polycyclic aromatic compounds (PACs) in a diffusion coflow flame using a three-component Jet A-1 surrogate (n-decane/ propylbenzene/ propylcyclohexane) as fuel. A kinetic Monte Carlo software, which generates samples of the atomistic evolution of gas-phase molecules' growth, was used to characterize the PACs' growth in this flame. We leveraged our simulations to identify a number of aromatic structures. In addition to aromatic hydrocarbons, we were able to reproduce the diverse array of oxygenated PACs observed experimentally between 150u and 450u, specifically a number of PACs with five-membered carbon rings and furan, hydroxl, and ketone groups. The amount of PACs with masses between 450u and 600u was slightly over-predicted, indicating that in this mass range there are possibly other mechanisms (e.g., radical-radical interactions) that reduce the concentration of these PACs. As our growth mechanism is focused mostly on aromatic growth, we did not observe the more aliphatic molecules seen in experiment. Overall, our results suggest that there is a wide range of structures with different degrees of oxygenation and aromaticity that must be accounted for when modeling PACs' growth in combustion environments.},
   dimensions   = {true},
-  google_scholar_id = {\_OXeSy2IsFwC}
+  google_scholar_id = {\_OXeSy2IsFwC},
+  preview      = {saldinger2020characterizing.jpg}
 }
 @article{shi2020chemical,
   title        = {Chemical pathways for the formation of benzofuran and dibenzofuran in combustion},
@@ -490,7 +464,8 @@
   keywords     = {Benzene, Reaction rates, , G3, IRCmax},
   abstract     = {Understanding and predicting the formation of polycyclic aromatic compounds (PACs) and their role in the formation of high molecular mass compounds is still an unresolved topic in combustion. PACs characteristics, such as chemical composition, size, and presence of side chains, play an important role not only in terms of environmental and health impact, but also when developing models that describe the formation of nanoparticles and soot. In this paper, we report on a detailed analysis of the reaction pathways describing the chemistry of furan-embedded PACs using ab initio G3-type electronic structure calculations leading to the formation of benzofuran and dibenzofuran from benzene and biphenyl. The 82 elementary reactions, identified in this work, contain unexplored pathways involving triplet oxygen atom and hydroxyl radical addition reactions. A protocol for improving the calculations of reaction energetics from ab initio compound methods is proposed, which consists of the thorough usage of IRCmax scheme to identify the transition state structure and an energy correction ( ~ 0.2~kcal/mol) to the empirical term in G3 formula for systems with open-shell singlet type of electronic configurations. Based on these ab initio calculations, temperature dependent reaction rate constants are calculated according to statistical theories, together with thermodynamics data. Branching ratio analysis based on steady-state approximation is carried out to illustrate the relative importance of the new pathways in an ethylene premixed flame. Results show that the newly discovered benzofuran formation pathways can play a relative important role when in presence of phenol or phenoxyl radicals at various locations in the flame.},
   dimensions   = {true},
-  google_scholar_id = {ZzlSgRqYykMC}
+  google_scholar_id = {ZzlSgRqYykMC},
+  preview     = {shi2020chemical.jpg}
 }
 @article{zhou2020chemical,
   title        = {Chemical kinetic modeling study of methyl esters oxidation: Improvement on the prediction of early CO2 formation},
@@ -520,21 +495,8 @@
   abstract     = {{Understanding the mechanisms and structural mappings between molecules and pathway classes are critical for design of reaction predictors for synthesizing new molecules. This article studies the problem of prediction of classes of metabolic pathways (series of chemical reactions occurring within a cell) in which a given biochemical compound participates. We apply a hybrid machine learning approach consisting of graph convolutional networks used to extract molecular shape features as input to a random forest classifier. In contrast to previously applied machine learning methods for this problem, our framework automatically extracts relevant shape features directly from input SMILES representations, which are atom-bond specifications of chemical structures composing the molecules.Our method is capable of correctly predicting the respective metabolic pathway class of 95.16\\\% of tested compounds, whereas competing methods only achieve an accuracy of 84.92\\\% or less. Furthermore, our framework extends to the task of classification of compounds having mixed membership in multiple pathway classes. Our prediction accuracy for this multi-label task is 97.61\\\%. We analyze the relative importance of various global physicochemical features to the pathway class prediction problem and show that simple linear/logistic regression models can predict the values of these global features from the shape features extracted using our framework.https://github.com/baranwa2/MetabolicPathwayPrediction.Supplementary data are available at Bioinformatics online.}},
   dimensions   = {true},
   altmetric    = 73305646,
-  google_scholar_id = {GFxP56DSvIMC}
-}
-@article{liu2019predicting1,
-  title        = {Predicting the time of entry of nanoparticles in cellular membranes},
-  author       = {Changjiang Liu and Paolo Elvati and Sagardip Majumder and Yichun Wang and Allen Liu and Angela Violi},
-  year         = 2019,
-  journal      = {bioRxiv},
-  publisher    = {Cold Spring Harbor Laboratory},
-  doi          = {10.1101/619221},
-  url          = {https://www.biorxiv.org/content/early/2019/04/30/619221},
-  elocation-id = 619221,
-  abstract     = {The understanding of the molecular interactions between nanoparticles (NPs) and biological systems is crucial for the systematic advance in many high-impact fields, such as biomedicine and nanotechnology. A key aspect to understand and predict the biological effect of NPs, e.g., cytotoxicity, bioavailability, is their interaction with membranes, specifically the mechanisms that regulate passive transport, which controls the permeation of most small molecules. In this paper, we introduce a new streamlined theoretical model that is able to predict the interactions between NPs and biological membranes (average permeation time), by separating the NPs{\textquoteright} characteristics (i.e., size, shape, solubility) from the membrane properties (density distribution). This factorization allows the inclusion of data obtained from both experimental and computational sources, as well as rapid estimation of large sets of permutation in new membranes. We validated our approach, by comparing our prediction for the interactions between different carbonaceous NPs and lipid bilayers with both experiments of measuring graphene quantum dot leakage encapsulated in lipid vesicles and time of entry from MD simulations.},
-  eprint       = {https://www.biorxiv.org/content/early/2019/04/30/619221.full.pdf},
-  dimensions   = {true},
-  google_scholar_id = {F9fV5C73w3QC}
+  google_scholar_id = {GFxP56DSvIMC},
+  preview      = {baranwal2019deep.jpg},
 }
 @article{kang2019effect,
   title        = {The effect of molecular structures of alkylbenzenes on ignition characteristics of binary n-heptane blends},
@@ -550,10 +512,11 @@
   keywords     = {Low temperature oxidation, Autoignition, Aromatic, Motored engine, Surrogates},
   abstract     = {Alkylbenzenes are major aromatic constituents of real transportation fuels and important surrogate components. In this study, the structural impact of nine alkylbenzenes on their ignition characteristics is experimentally and computationally investigated with particular emphasis on the blending effect with significantly more reactive normal alkanes. Experimental comparisons of mono-alkylbenzenes (toluene, ethylbenzene, n-propylbenzene, iso-propylbenzene) from a modified CFR engine showed that the difference in pure alkylbenzene reactivity significantly diminished when blended with n-heptane, as the strength of the radical scavenging effect of all three alkylbenzenes is similar. Among C8H10 isomers, the reactivity of pure ethylbenzene and o-xylene and their blends with n-heptane showed a complex competing effect between the difference in CH bond energy and the existence of intermediate/low-temperature chemistry caused by adjacent methyl pairs. A similar structural impact was also observed for C9H12 isomers and their blends with n-heptane, while the influence of CH bond energy was more noticeable than C8H10 molecules. Kinetic simulations of the alkylbenzene/n-heptane blends highlighted the effect caused by adjacent methyl pairs that is referred to as the ``ortho effect''. Analysis of ethylbenzene and o-xylene showed that o-xylene's intermediate/low-temperature pathways initiated by benzylperoxy radical – benzylhydroperoxide isomerization (RO2 – QOOH) produce additional active radicals such as OH and CH2O, which accelerates the oxidation chemistry of more reactive n-heptane. This study provides knowledge on the blending effect of alkylbenzene compounds with n-heptane on their ignition characteristics that is useful to develop surrogates that can better mimic the reactivity of real fuels.},
   dimensions   = {true},
-  google_scholar_id = {OcBU2YAGkTUC}
+  google_scholar_id = {OcBU2YAGkTUC},
+  preview     = {kang2019effect.jpg},
 }
 @article{kang2019experimental1,
-  title        = {Experimental characterization of jet fuels under engine relevant conditions – Part 2: Insights on optimization approach for surrogate formulation},
+  title        = {Experimental characterization of jet fuels under engine relevant conditions -- Part 2: Insights on optimization approach for surrogate formulation},
   author       = {Dongil Kang and Doohyun Kim and Vickey Kalaskar and Andr\'{e} Boehman and Angela Violi},
   year         = 2019,
   journal      = {Fuel},
@@ -565,10 +528,11 @@
   keywords     = {Surrogate, Autoignition, Kinetic mechanisms, TSI, Motored engine, Constant volume spray chamber},
   abstract     = {Computational combustion modeling is an essential complementary tool to engine experiments and the combination of computational fluid dynamics and detailed chemical kinetics provides the promise for optimizing engine performance. However, predicting the effects of chemical and physical properties of fuels on engine performance is a great challenge since transportation fuels are composed of several hundreds to thousands of chemical species. Surrogates are simpler representations of real fuels and are comprised of selected species of known concentrations that exhibit combustion characteristics similar to those of the real fuels. In this paper, drawing from our previous work on surrogate formulations, we investigate the effects of surrogate components on the autoignition characteristics of conventional and alternative jet fuels, using a combination of experimental and modeling approaches. As target fuels, we analyzed a conventional jet fuel (Jet-A) and two alternative jet fuels (coal-derived IPK, natural-gas-derived S8). Experimental data on the properties of surrogate mixtures, such as liquid density and threshold sooting index, their combustion behaviors, together with those from their corresponding target real fuels are compared and analyzed using predictions obtained from the surrogate model. Results from a modified CFR engine show that the ignition reactivity of Jet-A and Sasol IPK surrogates are stronger than their target fuels, while the S8 surrogate displayed an ignition behavior very similar to the target S8. Results from a constant volume spray combustion chamber provided reasonable agreements between the surrogates and their target jet fuels in terms of physical and chemical ignition delay times and apparent heat release trends, with the S8 surrogate showing the best agreement. In addition, surrogate mixtures that were modified from the original Jet-A and IPK surrogates to achieve a better agreement with CFR experiments performed poorly when tested in a spray chamber. These results imply that the agreement between the behaviors of surrogates and real fuels in one device or in one condition does not guarantee similarity in other devices or in other conditions. This study also highlights the need for improvements in the current surrogate formulation methodologies to provide a more universal emulation of the autoignition behaviors of target transportation fuels.},
   dimensions   = {true},
-  google_scholar_id = {3htObqc8RwsC}
+  google_scholar_id = {3htObqc8RwsC},
+  preview     = {kang2019experimental1.jpg},
 }
 @article{kang2019experimental2,
-  title        = {Experimental characterization of jet fuels under engine relevant conditions – Part 1: Effect of chemical composition on autoignition of conventional and alternative jet fuels},
+  title        = {Experimental characterization of jet fuels under engine relevant conditions -- Part 1: Effect of chemical composition on autoignition of conventional and alternative jet fuels},
   author       = {Dongil Kang and Doohyun Kim and Vickey Kalaskar and Angela Violi and Andr\'{e} L. Boehman},
   year         = 2019,
   journal      = {Fuel},
@@ -580,7 +544,8 @@
   keywords     = {Alternative jet aviation fuel, Motored engine, Ignition behavior, Surrogate, Constant volume combustion chamber},
   abstract     = {Conventional and synthetic alternative jet fuels possess distinctive chemical compositions and physical/chemical properties since they are produced through different production processes. In this paper, the autoignition characteristics of four conventional aviation jet fuels (Jet-A POSF-4658, Jet-A POSF-10325, JP-5 POSF-10289, JP-8 POSF-6169), five alternative jet fuels (Syntroleum S-8 (S8), Shell synthetic paraffinic kerosene (Shell SPK), Sasol iso-paraffinic kerosene (Sasol IPK), hydro-processed renewable jet (HRJ8), alcohol to jet (ATJ), and 50/50 vol\% blends of JP-8/alternative jet fuels were explored. The objective of the current work is to understand how the chemical composition of the fuels affects the gas phase chemical kinetic behavior and the ignition process of the liquid spray in an engine-relevant environment, thereby ultimately enabling their use in military ground vehicles with compression ignition engines. A modified Cooperative Fuel Research (CFR) motored engine was utilized and the gas phase ignition behavior was observed over a wide range of temperatures and pressures, while varying the compression ratio. In addition, an optically accessible constant volume spray combustion chamber was employed to observe significant differences in the global heat release characteristics and physical/chemical ignition delay times of synthetic alternative jet fuels in comparison to the conventional jet fuels. The results of this study show that synthetic alternative jet fuels with predominantly linear and lightly-branched alkane content (S8, Shell SPK and HRJ8) provide stronger low-temperature ignition characteristics, while other types of synthetic alternative jet fuels with high content of highly-branched alkanes (Sasol IPK and ATJ) exhibit weaker low-temperature ignition characteristics, when compared to conventional jet fuels (JP-8, Jet-A and JP-5). Their unique fundamental ignition behaviors, including the percentage of low-temperature heat release (\% LTHR), the critical compression ratio (CCR), and the critical equivalence ratio (\ensuremath{\phi}crit), are strongly related to the dominant chemical compositions of the fuel in a motored engine.},
   dimensions   = {true},
-  google_scholar_id = {fFSKOagxvKUC}
+  google_scholar_id = {fFSKOagxvKUC},
+  preview    = {kang2019experimental2.jpg},
 }
 @article{kim2019two,
   title        = {Two-stage ignition behavior and octane sensitivity of toluene reference fuels as gasoline surrogate},
@@ -608,7 +573,7 @@
   dimensions   = {true},
   google_scholar_id = {fbc8zXXH2BUC}
 }
-@article{liu2019predicting2,
+@article{liu2019predicting,
   title        = {Predicting the Time of Entry of Nanoparticles in Lipid Membranes},
   author       = {Liu, Changjiang and Elvati, Paolo and Majumder, Sagardip and Wang, Yichun and Liu, Allen P. and Violi, Angela},
   year         = 2019,
@@ -625,7 +590,8 @@
   abstract     = {The number of engineered nanoparticles for applications in the biomedical arena has grown tremendously over the last years due to advances in the science of synthesis and characterization. For most applications, the crucial step is the transport through a physiological cellular membrane. However, the behavior of nanoparticles in a biological matrix is a very complex problem that depends not only on the type of nanoparticle but also on its size, shape, phase, surface charge, chemical composition, and agglomeration state. In this paper, we introduce a streamlined theoretical model that predicts the average time of entry of nanoparticles in lipid membranes, using a combination of molecular dynamics simulations and statistical approaches. The model identifies four parameters that separate the contributions of nanoparticle characteristics (i.e., size, shape, solubility) from the membrane properties (density distribution). This factorization allows the inclusion of data obtained from both experimental and computational sources, as well as a rapid estimation of large sets of permutations in membranes. The robustness of the model is supported by experimental data carried out in lipid vesicles encapsulating graphene quantum dots as nanoparticles. Given the high level of interest across multiple areas of study in modulating intracellular targets, and the need to understand and improve the applications of nanoparticles and to assess their effect on human health (i.e., cytotoxicity, bioavailability), this work contributes to the understanding and prediction of interactions between nanoparticles and lipid membranes.},
   google_scholar_id = {8xutWZnSdmoC},
   dimensions   = {true},
-  altmetric    = 66755581
+  altmetric    = 66755581,
+  preview      = {liu2019predicting.jpg},
 }
 @article{elvati2019role,
   title        = {The role of molecular properties on the dimerization of aromatic compounds},
@@ -641,7 +607,8 @@
   keywords     = {Free energy, Molecular dynamics, Nucleation},
   abstract     = {Recent results have shown the presence and importance of oxygen chemistry during the growth of aromatic compounds, leading to the formation of oxygenated structures that have been identified in various environments. Since the formation of polycyclic aromatic compounds (PAC) bridge the formation of gas-phase species with particle inception, in this work we report a detailed analysis of the effects of molecular characteristics on physical growth of PAC via dimerization. We have included oxygen content, mass, type of bonds (rigid versus rotatable), and shape as main properties of the molecules and studied their effect on the propensity of these structures to form homo-molecular and hetero-molecular dimers. Using enhanced sampling molecular dynamics techniques, we have computed the free energy of dimerization in the temperature range 500–1680~K. Initial structures used in this study were obtained from experimental data. The results show that the effects of shape, presence of oxygen, mass, and internal bonds are tightly intertwined, and that their relative importance changes with temperature. In general, mass and the presence of rotatable bonds are the most influential factor to predict dimerization propensity among the one considered. The results provide knowledge on the inception step and the role that particle characteristics play during inception. In addition, our study highlights the fact that current models that use stabilomers as monomers for physical aggregation are overestimating the importance of their dimerization during particle nucleation.},
   dimensions   = {true},
-  google_scholar_id = {EYYDruWGBe4C}
+  google_scholar_id = {EYYDruWGBe4C},
+  preview      = {elvati2019role.jpg},
 }
 @article{wang2019spatial,
   title        = {Spatial dependence of the growth of polycyclic aromatic compounds in an ethylene counterflow flame},
@@ -655,7 +622,23 @@
   url          = {https://www.sciencedirect.com/science/article/pii/S0008622319302404},
   abstract     = {The complex environments that characterize combustion systems can influence the distribution of gas-phase species, the relative importance of various growth mechanisms and the chemical and physical characteristics of the soot precursors generated. In order to provide molecular insights on the effect of combustion environments on the formation of gas-phase species, in this paper, we study the temporal and spatial dependence of soot precursors growth mechanisms in an ethylene/oxygen/argon counterflow diffusion flame. As computational tools of investigation, we included fluid dynamics simulations and stochastic discrete modeling. Results show the relative importance of various reaction pathways in flame, with the hydrogen-abstraction-acetylene-addition mechanism contributing to the formation of pure hydrocarbons near the stagnation plane, and oxygen chemistry prevailing near the maximum temperature region, where the concentration of atomic oxygen reaches its peak and phenols, ethers and furan-embedded species are formed. The computational results show excellent agreement with measurements obtained using aerosol mass spectrometry coupled with vacuum-ultraviolet photoionization. Knowledge acquired in this study can be used to predict the type of compounds formed in various locations of the flame and eventually provide insights on the environmental parameters that influence the growth of soot precursors. Additionally, the results reported in this paper highlight the importance of modeling counterflow flames in two or three dimensions to capture the spatial dependence of growth mechanisms of soot precursors.},
   dimensions   = {true},
-  google_scholar_id = {a3BOlSfXSfwC}
+  google_scholar_id = {a3BOlSfXSfwC},
+  preview      = {wang2019spatial.jpg},
+}
+@article{wang2020insights,
+  title = {Insights on the effect of ethanol on the formation of aromatics},
+  journal = {Fuel},
+  volume = {264},
+  pages = {116773},
+  year = {2020},
+  issn = {0016-2361},
+  doi = {https://doi.org/10.1016/j.fuel.2019.116773},
+  url = {https://www.sciencedirect.com/science/article/pii/S0016236119321271},
+  author = {Qi Wang and Jacob C. Saldinger and Paolo Elvati and Angela Violi},
+  keywords = {Premixed flame, Ethylene, Oxygen chemistry, PAHs, PACs, SNapS2},
+  abstract = {For decades, ethanol has played an important role as a biofuel, as its addition to hydrocarbon fuels has been associated with a reduction in soot formation. The chemical mechanisms behind this phenomenon, however, are still not clear. In this paper, we contribute to this research area by elucidating the mechanisms that participate in the formation of polycyclic aromatic compounds (PACs) in an ethanol-doped ethylene flame, using a combination of deterministic and stochastic computational techniques. We specifically focus on the formation of oxygenated PACs and the chemical interactions of pure hydrocarbons and oxygen in six ethylene/air premixed flames with similar temperature profiles but different equivalence ratios and ethanol doping percentages. Our simulations confirm that an increase in the ethanol content results in a reduction of the formation of acetylene, small aromatics, and large PAHs. At the same time, the number of oxygenated PACs reach a maximum at a height above burner around 2–3 mm where they constitute 45% of all PACs: most of the oxygenated structures are phenols, mixed with approximately 15% of furans, and a small amount of ethers. Overall, the results indicate that the formation pathways of oxygenated PACs can compete with pure hydrocarbon growth mechanisms in the rapid growth region up to a height above burner of 2–3 mm. The rate of PACs’ growth then gradually slows down, with pure hydrocarbon growth mechanisms being the main contributors in this region of the flame.},
+  dimensions = {true},
+  preview = {wang2020insights.jpg},
 }
 @article{wang2019anti,
   title        = {Anti-Biofilm Activity of Graphene Quantum Dots via Self-Assembly with Bacterial Amyloid Proteins},
@@ -674,7 +657,8 @@
   abstract     = {Bacterial biofilms represent an essential part of Earth's ecosystem that can cause multiple ecological, technological, and health problems. The environmental resilience and sophisticated organization of biofilms are enabled by the extracellular matrix that creates a protective network of biomolecules around the bacterial community. Current anti-biofilm agents can interfere with extracellular matrix production but, being based on small molecules, are degraded by bacteria and rapidly diffuse away from biofilms. Both factors severely reduce their efficacy, while their toxicity to higher organisms creates additional barriers to their practicality. In this paper, we report on the ability of graphene quantum dots to effectively disperse mature amyloid-rich Staphylococcus aureus biofilms, interfering with the self-assembly of amyloid fibers, a key structural component of the extracellular matrix. Mimicking peptide-binding biomolecules, graphene quantum dots form supramolecular complexes with phenol-soluble modulins, the peptide monomers of amyloid fibers. Experimental and computational results show that graphene quantum dots efficiently dock near the N-terminus of the peptide and change the secondary structure of phenol-soluble modulins, which disrupts their fibrillation and represents a strategy for mitigation of bacterial communities.},
   google_scholar_id = {yMeIxYmEMEAC},
   dimensions   = {true},
-  altmetric    = 58534100
+  altmetric    = 58534100,
+  preview     = {wang2019anti.jpg},
 }
 @article{kim2018hydrocarbons,
   title        = {Hydrocarbons for the next generation of jet fuel surrogates},
@@ -689,7 +673,8 @@
   keywords     = {Fuel surrogate, Physical properties, Jet fuel, Alternative jet fuel},
   abstract     = {Fuel surrogates are a critical component for the detailed combustion modeling of real transportation fuels. Indeed, the numerical study of engine combustion requires the coupling of computational fluid dynamics and chemical kinetic models, and therefore a limited number of chemical species and reactions can be employed due to current numerical capabilities. As a consequence, surrogates are adopted to simulate the behavior of real fuels. In this study, we evaluate various hydrocarbon molecules that can be employed as next generation surrogate components for conventional and alternative jet fuels. Species considered in this study have smaller number of kinetic data as compared to molecules that are currently used in jet fuel surrogates, but they possess greater physical relevance and the potential to achieve closer emulation of properties when used as jet fuel surrogate components. Using a surrogate optimizer model, we analyze various mixtures that can emulate a petroleum-derived jet fuel (Jet-A POSF-4658) and a coal-derived jet fuel (IPK POSF-5642). The results show that n-tetradecane and n-dodecane are suitable normal alkane representatives for jet fuels. Also, the use of three C9 alkylbenzenes (n-propyl-, 1,2,4-trimethyl-, 1,3,5-trimethyl-benzene) leads to surrogate mixtures with an aromatic content and a distillation curve that matches the experimental values of Jet-A much better than mixtures that contain toluene or C10 alkylbenzenes. In addition, the optimization results with three new branched alkanes for the target IPK show that 2,2,4,6,6-pentamethylheptane is a promising surrogate component for representing low ignition quality highly-branched alkanes in jet fuels. This study highlights the need for experimental studies and further kinetic model development for these molecules, which will benefit the surrogate development for the wide variety of jet fuels in the future.},
   dimensions   = {true},
-  google_scholar_id = {ODE9OILHJdcC}
+  google_scholar_id = {ODE9OILHJdcC},
+  preview      = {kim2018hydrocarbons.jpg},
 }
 @article{elvati2018homo,
   title        = {Homo-dimerization of oxygenated polycyclic aromatic hydrocarbons under flame conditions},
@@ -705,7 +690,8 @@
   abstract     = {Homogeneous nucleation is identified as one of the steps responsible for the formation of the critical nuclei that define the transition from gas-phase species to soot formation particles. However, the effect of molecular properties (like size, composition, and shape) on their propensity to physically bind, for a time long enough to initiate particle nucleation, has not been thoroughly investigated. In this work, we analyze the effect of oxygen content on the homodimerization propensity of different polycyclic aromatic compounds (PACs) using molecular dynamics simulations coupled with well-tempered Metadynamics enhanced sampling. We analyzed species in two mass groups, with a molecular weight ranging from 448 \ensuremath{\mu} to 696 \ensuremath{\mu}, and with varying oxygen content, mostly present as ethers. The reconstructed free energy profiles show that, besides mass, the presence of oxygenated groups influences the tendency of PACs to bind, with oxygenated compounds forming dimers that are less stable than the corresponding polycyclic aromatic hydrocarbons. Although this work represents only the first step towards a model for PACs dimerization that include oxygen, these results suggest that oxygenated compounds are less likely to condense onto soot particles.},
   dimensions   = {true},
   google_scholar_id = {yFnVuubrUp4C},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {elvati2018homo.jpg},
 }
 @article{kim2017six,
   title        = {A six-component surrogate for emulating the physical and chemical characteristics of conventional and alternative jet fuels and their blends},
@@ -734,7 +720,8 @@
   issue        = 29,
   abstract     = {Graphene Quantum Dots (GQDs) are a relatively new class of molecules that have ignited tremendous research interest due to their extraordinary and tunable optical{,} electrical{,} chemical and structural properties. In this work{,} we report a molecular-level elucidation of the key mechanisms and physical–chemical factors controlling the assembly and stability of nanostructures formed by GQDs in an aqueous environment{,} using molecular dynamics simulations. We observe the general tendency to form small aggregates and three recurring configurations{,} one of them with a single layer of water separating two GQDs. The type and characteristics of the structure are mostly determined by the hydrophobicity of the GQDs as well as the steric hindrance of the dangling groups. The composition of the terminal groups plays a key role in determining the configuration of the GQDs{,} which is also markedly affected by the formation of clusters. Notably{,} the aggregated GQDs assume strongly correlated shapes and{,} in some cases{,} display a radically different conformation distribution compared to single molecules. This cooperative effect prolongs the lifetime of the GQD configurations and can explain the observed persistence of chiral conformations that are only marginally more stable than their specular images.},
   dimensions   = {true},
-  altmetric    = 18253968
+  altmetric    = 18253968,
+  preview      = {elvati2017graphene.jpg},
 }
 @misc{harirchi2017data,
   title        = {A Data-Driven Sparse-Learning Approach to Model Reduction in Chemical Reaction Networks},
@@ -764,7 +751,8 @@
   abstract     = {We have measured photoionization-efficiency curves for pyrene, fluoranthene, chrysene, perylene, and coronene in the photon energy range of 7.5--10.2 eV and derived their photoionization cross-section curves in this energy range. All measurements were performed using tunable vacuum ultraviolet (VUV) radiation generated at the Advanced Light Source synchrotron at Lawrence Berkeley National Laboratory. The VUV radiation was used for photoionization, and detection was performed using a time-of-flight mass spectrometer. We measured the photoionization efficiency of 2,5-dimethylfuran simultaneously with those of pyrene, fluoranthene, chrysene, perylene, and coronene to obtain references of the photon flux during each measurement from the known photoionization cross-section curve of 2,5-dimethylfuran.},
   google_scholar_id = {uWiczbcajpAC},
   dimensions   = {true},
-  altmetric    = 20857320
+  altmetric    = 20857320,
+  preview    = {johansson2017photoionization.jpg},
 }
 @article{johansson2017critical,
   title        = {Critical Assessment of Photoionization Efficiency Measurements for Characterization of Soot-Precursor Species},
@@ -781,7 +769,8 @@
   issn         = {1089-5639},
   url          = {https://doi.org/10.1021/acs.jpca.7b02992},
   abstract     = {We present a critical evaluation of photoionization efficiency (PIE) measurements coupled with aerosol mass spectrometry for the identification of condensed soot-precursor species extracted from a premixed atmospheric-pressure ethylene/oxygen/nitrogen flame. Definitive identification of isomers by any means is complicated by the large number of potential isomers at masses likely to comprise particles at flame temperatures. This problem is compounded using PIE measurements by the similarity in ionization energies and PIE-curve shapes among many of these isomers. Nevertheless, PIE analysis can provide important chemical information. For example, our PIE curves show that neither pyrene nor fluoranthene alone can describe the signal from C16H10 isomers and that coronene alone cannot describe the PIE signal from C24H12 species. A linear combination of the reference PIE curves for pyrene and fluoranthene yields good agreement with flame-PIE curves measured at 202 u, which is consistent with pyrene and fluoranthene being the two major C16H10 isomers in the flame samples, but does not provide definite proof. The suggested ratio between fluoranthene and pyrene depends on the sampling conditions. We calculated the values of the adiabatic-ionization energy (AIE) of 24 C16H10 isomers. Despite the small number of isomers considered, the calculations show that the differences in AIEs between several of the isomers can be smaller than the average thermal energy at room temperature. The calculations also show that PIE analysis can sometimes be used to separate hydrocarbon species into those that contain mainly aromatic rings and those that contain significant aliphatic content for species sizes investigated in this study. Our calculations suggest an inverse relationship between AIE and the number of aromatic rings. We have demonstrated that further characterization of precursors can be facilitated by measurements that test species volatility.},
-  google_scholar_id = {PoWvk5oyLR8C}
+  google_scholar_id = {PoWvk5oyLR8C},
+  preview   = {johansson2017critical.jpg},
 }
 @article{johansson2017radical,
   title        = {Radical-radical reactions, pyrene nucleation, and incipient soot formation in combustion},
@@ -796,7 +785,8 @@
   url          = {https://www.sciencedirect.com/science/article/pii/S1540748916303893},
   keywords     = {Incipient soot, Ethylene flame, PAH, Radical reactions, Pyrene},
   abstract     = {We present a combined experimental and probabilistic simulation study of soot-precursor. The experiments were conducted using aerosol mass spectrometry coupled with tunable vacuum ultraviolet radiation from the Advanced Light Source at Lawrence Berkeley National Laboratory. Mass spectra and photoionization efficiency (PIE) curves of soot precursor species were measured at different heights in a premixed flat flame and in a counter-flow diffusion flame fueled by ethylene and oxygen. The PIE curves at the pyrene mass from these flames were compared with reference PIE scans recorded for pyrene. The results demonstrate that other C16H10 isomers than pyrene are major components among species condensed onto incipient soot in this study, which is in agreement with the simulations. Species with mass 202u only have a high prevalence in incipient soot particles drawn from the premixed flame, but hydrocarbon species with sizes in the range 200–400u are important to incipient-soot formation in both flames. The simulations predict that some species form through combination reactions involving relatively large radicals and bypass traditional molecular-growth pathways through addition of small hydrocarbon species. The experimental results support this prediction; they demonstrate that these species have higher relative abundances in particles formed close to the fuel outlet than smaller, lighter molecular species and indicate that these species are important to early formation of incipient-soot precursors. The results also imply that a leading role in incipient-soot precursor formation is played by species with lower thermal stability than the even-carbon numbered, unsubstituted polycyclic aromatic hydrocarbons known as ``stabilomers''.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview   = {johansson2017radical.jpg},
 }
 @article{kim2017relative,
   title        = {The Relative Importance of Fuel Oxidation Chemistry and Physical Properties to Spray Ignition},
@@ -808,7 +798,8 @@
   doi          = {10.4271/2017-01-0269},
   url          = {https://www.sae.org/publications/technical-papers/content/2017-01-0269/},
   abstract     = {The ignition delay time for direct injection compression ignition engines is determined by complex physical and chemical phenomena that prepare the injected liquid fuel for gas phase ignition. In this work, Computational Fluid Dynamics (CFD) simulations of a reacting spray within a constant volume spray chamber are conducted to investigate the relative importance of liquid fuel physical properties and oxidation chemistry on the ignition delay time. The simulations use multi-component surrogates that emulate the physical and chemical properties of petroleum-derived (Jet-A) and natural-gas-derived (S-8) jet fuels. Results from numerical experiments isolating the fuel physical property and chemistry effects show that fuel chemistry is significantly more important to ignition delay than fuel physical properties under the conditions studied. In addition, as the air charge temperature increases, the effects of physical properties and oxidation chemistry decrease, indicating that the effect of variation in fuel properties on ignition timing may be mitigated through increased pre-ignition charge temperatures.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview  = {kim2017relative.jpg},
 }
 @proceedings{kim2017effects,
   title        = {{The Effects of Injection Timing and Injected Fuel Mass on Local Charge Conditions and Emissions for Gasoline Direct Injection Engines}},
@@ -859,7 +850,8 @@
   doi          = {10.1080/13647830.2016.1211741},
   url          = {https://www.tandfonline.com/doi/full/10.1080/13647830.2016.1211741},
   abstract     = {Nanoparticles formed in gas-phase combustion environments are ubiquitous in modern society as hazardous pollutants. Due to the deleterious health effects of carbonaceous nanoparticles it is important to gain a better understanding of the fundamental processes that lead to their formation and growth. We have utilised our Stochastic NAnoParticle Simulator software to model the growth of soot precursor species in a laminar premixed benzene–air flame. We implemented a new set of pathways containing oxygenation reactions and assessed the effects on the growth mechanisms. The inclusion of oxygenation growth pathways with the previously established hydrocarbon growth pathways creates a much larger set of potential configurations for the particle to explore and thus the rate of growth is faster. Hydrogen abstractions and acetylene additions are still the most common events the particle experiences during its evolution trajectory; however, a significant amount of ethers and oxygen-containing rings are formed. Though the role of soot precursor oxygenation is not completely solved, it certainly adds layers of complexity to the nanoparticles' formation process and likely influences the formation of soot particles.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {dillstrom2017effect.jpg},
 }
 @article{violi2016effects,
   title        = {Effects of Combustion-Generated Nanoparticles on Cellular Membranes},
@@ -874,7 +866,8 @@
   url          = {10.1080/00102202.2016.1139370},
   eprint       = {10.1080/00102202.2016.1139370},
   abstract     = {In the environment, the process of combustion is the dominant pathway through which mankind continuously injects particles into the atmosphere at the present time. The most direct and serious risk related to these emissions is the direct absorption of these particles into the living systems of humans and animals through the process of respiration, especially in more urban environments. Little is known about the potential of low-level exposures to alter key biophysical functions, such as membrane form and function. This study employs molecular dynamics simulations to reconstruct the free energy landscapes of the mechanisms of entry of nanoparticles into biological cells. Specifically, we investigate the behavior of two nanoparticles produced in combustion conditions with different amphiphilic properties to assess the effect of chemical composition on the interactions with cellular membranes. Free energy calculations of nanoparticles interacting with a lipid bilayer composed of dimyristoylphosphatidylcholine and cholesterol show that the presence of hydroxyl groups on the nanoparticle makes the region where the lipids' heads are solvated by water the most favorable position for these species. The hydrophobic nanoparticle shows a strong affinity for the center of the membrane. This study shows the importance of surface composition and suggests different mechanisms of interactions of nanoparticles with cellular membranes.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {violi2016effects.jpg},
 }
 @article{kang2016experimental,
   title        = {Experimental study of autoignition characteristics of Jet-A surrogates and their validation in a motored engine and a constant-volume combustion chamber},
@@ -888,7 +881,8 @@
   url          = {https://www.sciencedirect.com/science/article/pii/S0016236116306044},
   keywords     = {Jet aviation fuel, Motored engine, Ignition behavior, Surrogate, Constant-volume combustion chamber},
   abstract     = {The current study presents an experimental validation of jet aviation fuel surrogates formulated using a surrogate model-optimizer. Two surrogate fuel mixtures are used to emulate a practical Jet-A (POSF 4658) considering a series of physical and chemical processes in diesel engines. The surrogate mixtures consist of: n-dodecane/isocetane/methylcyclohexane (MCH)/toluene 0.3844/0.1484/0.2336/0.2336 on a molar basis (referred to as UM I), and n-dodecane/isocetane/decalin/toluene 0.2897/0.1424/0.3188/0.2491 on a molar basis (referred to as UM II). In the present study, a modified Cooperative Fuels Research (CFR) Octane Rating engine and an optically accessible, constant-volume spray combustion chamber are employed to investigate how the chemical and physical properties of these jet fuel surrogate mixtures affect the fundamental ignition behavior as compared to the targeted full boiling range Jet-A fuel (POSF 4658). The observations of ignition behavior include critical compression ratio and critical equivalence ratio, and \% low temperature heat release, which are assessed using the motored engine (CFR), while physical and chemical ignition delays are measured using a modified Cetane Rating (CID 510) instrument under a wide range of air temperatures and oxygen dilution levels. The measured derived cetane number (DCN) for UM I shows a reasonably good match with the practical Jet-A fuel (POSF 4658), while gas-phase oxidation behavior is less, well-matched in the modified CFR engine. In contrast, although the measured DCN of UM II revealed a lower value than the estimated value using a surrogate optimizer, the ignition behavior is relatively well match with that of the target Jet-A in the modified CFR engine. The similarities in physical and chemical ignition delays as compared with the target Jet-A support the effectiveness of the UM II surrogate, while in contrast, the UM I surrogate only matched the chemical ignition delay. This is attributed to the importance of the surrogate component decalin, which improved the physical properties as compared to MCH, while the other three components were the same for the two surrogates.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview      = {kang2016experimental.jpg},
 }
 @article{kim2016effects,
   title        = {Effects of fuel physical properties on direct injection spray and ignition behavior},
@@ -902,7 +896,8 @@
   url          = {https://www.sciencedirect.com/science/article/pii/S0016236116301272},
   keywords     = {Liquid penetration, Ignition delay, Spray simulation, CFD},
   abstract     = {CFD simulations of reacting fuel sprays were conducted to identify temperature-dependent physical properties of the liquid fuel that should be emulated by diesel and jet fuel surrogates during compression ignited combustion. Using a validated CFD model for an n-dodecane spray under diesel-relevant conditions, six physical properties of the liquid phase fuel (density, vapor pressure, viscosity, surface tension, heat of vaporization, and specific heat capacity) were perturbed covering the minimum and maximum property range of hydrocarbons widely used in recent diesel and jet fuel surrogates. Liquid fuel density, viscosity, vapor pressure, and specific heat had significant impact on liquid penetration length, causing a 4–16\% change from the baseline n-dodecane case. The changes resulted from the liquid fuel's influence on various physical phenomena, including droplet breakup, air entrainment and evaporation. For ignition delay, specific heat and density effects were most significant, with up to 10\% changes from the baseline case. Specific heat perturbations affected the thermal energy necessary for fuel vaporization, hence local temperature development and mixture reactivity. Liquid density influenced the velocity of the fuel injection event, which modified turbulent mixing rates, low temperature heat release characteristics and the transition to high temperature ignition. The results of this study indicate that liquid density, specific heat, viscosity, and vapor pressure should be considered for surrogate development to properly capture the liquid penetration and ignition delay characteristics of the target fuel.},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview     = {kim2016effects.jpg},
 }
 @article{johansson2016formation,
   title        = {Formation and emission of large furans and oxygenated hydrocarbons from flames},
@@ -916,7 +911,8 @@
   url          = {https://www.pnas.org/doi/abs/10.1073/pnas.1604772113},
   abstract     = {Many oxygenated hydrocarbon species formed during combustion, such as furans, are highly toxic and detrimental to human health and the environment. These species may also increase the hygroscopicity of soot and strongly influence the effects of soot on regional and global climate. However, large furans and associated oxygenated species have not previously been observed in flames, and their formation mechanism and interplay with polycyclic aromatic hydrocarbons (PAHs) are poorly understood. We report on a synergistic computational and experimental effort that elucidates the formation of oxygen-embedded compounds, such as furans and other oxygenated hydrocarbons, during the combustion of hydrocarbon fuels. We used ab initio and probabilistic computational techniques to identify low-barrier reaction mechanisms for the formation of large furans and other oxygenated hydrocarbons. We used vacuum-UV photoionization aerosol mass spectrometry and X-ray photoelectron spectroscopy to confirm these predictions. We show that furans are produced in the high-temperature regions of hydrocarbon flames, where they remarkably survive and become the main functional group of oxygenates that incorporate into incipient soot. In controlled flame studies, we discovered \sim{}100 oxygenated species previously unaccounted for. We found that large alcohols and enols act as precursors to furans, leading to incorporation of oxygen into the carbon skeletons of PAHs. Our results depart dramatically from the crude chemistry of carbon- and oxygen-containing molecules previously considered in hydrocarbon formation and oxidation models and spearhead the emerging understanding of the oxidation chemistry that is critical, for example, to control emissions of toxic and carcinogenic combustion by-products, which also greatly affect global warming.},
   dimensions   = {true},
-  google_scholar_id = {ILKRHgRFtOwC}
+  google_scholar_id = {ILKRHgRFtOwC},
+  preview    = {johansson2016formation.jpg},
 }
 @article{russ2016c60,
   title        = {{C60} fullerene localization and membrane interactions in {RAW} 264.7 immortalized mouse macrophages},
@@ -931,7 +927,8 @@
   abstract     = {There continues to be a significant increase in the number and complexity of hydrophobic nanomaterials that are engineered for a variety of commercial purposes making human exposure a significant health concern. This study uses a combination of biophysical, biochemical and computational methods to probe potential mechanisms for uptake of C60 nanoparticles into various compartments of living immune cells. Cultures of RAW 264.7 immortalized murine macrophage were used as a canonical model of immune-competent cells that are likely to provide the first line of defense following inhalation. Modes of entry studied were endocytosis/pinocytosis and passive permeation of cellular membranes. The evidence suggests marginal uptake of C60 clusters is achieved through endocytosis/pinocytosis, and that passive diffusion into membranes provides a significant source of biologically-available nanomaterial. Computational modeling of both a single molecule and a small cluster of fullerenes predicts that low concentrations of fullerenes enter the membrane individually and produce limited perturbation; however, at higher concentrations the clusters in the membrane causes deformation of the membrane. These findings are bolstered by nuclear magnetic resonance (NMR) of model membranes that reveal deformation of the cell membrane upon exposure to high concentrations of fullerenes. The atomistic and NMR models fail to explain escape of the particle out of biological membranes, but are limited to idealized systems that do not completely recapitulate the complexity of cell membranes. The surprising contribution of passive modes of cellular entry provides new avenues for toxicological research that go beyond the pharmacological inhibition of bulk transport systems such as pinocytosis.},
   language     = {en},
   google_scholar_id = {bz8QjSJIRt4C},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview  = {russ2016c60.jpg},
 }
 @article{suzuki2016chiral,
   title        = {Chiral Graphene Quantum Dots},
@@ -950,7 +947,8 @@
   abstract     = {Chiral nanostructures from metals and semiconductors attract wide interest as components for polarization-enabled optoelectronic devices. Similarly to other fields of nanotechnology, graphene-based materials can greatly enrich physical and chemical phenomena associated with optical and electronic properties of chiral nanostructures and facilitate their applications in biology as well as other areas. Here, we report that covalent attachment of l/d-cysteine moieties to the edges of graphene quantum dots (GQDs) leads to their helical buckling due to chiral interactions at the ``crowded'' edges. Circular dichroism (CD) spectra of the GQDs revealed bands at ca. 210--220 and 250--265 nm that changed their signs for different chirality of the cysteine edge ligands. The high-energy chiroptical peaks at 210--220 nm correspond to the hybridized molecular orbitals involving the chiral center of amino acids and atoms of graphene edges. Diverse experimental and modeling data, including density functional theory calculations of CD spectra with probabilistic distribution of GQD isomers, indicate that the band at 250--265 nm originates from the three-dimensional twisting of the graphene sheet and can be attributed to the chiral excitonic transitions. The positive and negative low-energy CD bands correspond to the left and right helicity of GQDs, respectively. Exposure of liver HepG2 cells to l/d-GQDs reveals their general biocompatibility and a noticeable difference in the toxicity of the stereoisomers. Molecular dynamics simulations demonstrated that d-GQDs have a stronger tendency to accumulate within the cellular membrane than l-GQDs. Emergence of nanoscale chirality in GQDs decorated with biomolecules is expected to be a general stereochemical phenomenon for flexible sheets of nanomaterials.},
   altmetric    = 4999732,
   google_scholar_id = {SpbeaW3{-}-B0C},
-  dimensions   = {true}
+  dimensions   = {true},
+  preview = {suzuki2016chiral.jpg},
 }
 @article{ahmed2015size,
   title        = {Size-and phase-dependent structure of copper(ii) oxide nanoparticles},
@@ -965,7 +963,8 @@
   issue        = 44,
   abstract     = {Copper(ii) oxide (CuO) nanoparticles (NPs) have found numerous applications in electronics{,} optics{,} catalysis{,} energy storage{,} health{,} and water purification. Controlled synthesis of CuO NPs requires information on their nanoscale structure{,} which is expected to vary depending on the size{,} shape{,} phase{,} and most importantly{,} on the surface morphology. In this work{,} we report a detailed analysis of the structure of solid and melted CuO nanoparticles as functions of size and temperature at global and local scales{,} using molecular dynamics simulations. Comparisons of simulated X-ray diffraction profiles{,} mean bond lengths{,} average coordination numbers{,} and melting points with available experimental data support the modeling results. Melting points of CuO NPs vary linearly with the reciprocal of the diameters of NPs. The long-range order seen in solid nanoparticles with diameters greater than 6 nm gradually vanishes as size decreases{,} indicating the loss of translational symmetry of the lattice structure and the emergence of amorphous-like structure even below the melting point. Melted nanoparticles show liquid-like characteristics with only a short-range order. Mean bond lengths and average Cu–O coordination numbers of both solid and melted NPs indicate weakening of the structural stabilization for smaller NPs that leads to an increased deformation in the local atomic arrangement because of the lack of long-range interactions. For the cases studied{,} most of the structural features are independent of temperature{,} with the notable exception of the number of oxygen atoms coordinated to Cu. This latter quantity is indeed indicative of melting phase transition and can be used to compute the melting point accurately. Atoms on the surface of solid NPs show amorphous-like behavior even at temperatures well below the melting point of the NPs due to the limited coordination environment. This study represents a useful step towards the establishment of a structure–property relationship for CuO nanoparticles.},
   dimensions   = {true},
-  altmetric    = 33018028
+  altmetric    = 33018028,
+  preview      = {ahmed2015size.jpg},
 }
 @article{mouis2015effects,
   title        = {Effects of a JP-8 surrogate and its components on soot in laminar, N2-diluted ethylene co-flow diffusion flames from 1 to 5atm},
@@ -1550,6 +1549,20 @@
   abstract     = {Classical molecular dynamics simulations of atomistic models of combustion-generated carbon nanoparticles and lipid bilayers have been performed to explore their possible structural, dynamical, and thermodynamic effects on biological membranes. The DREIDING generic force field is used for the carbonaceous nanoparticles of different morphologies, as produced from combustion sources, and the united atom model was employed for the dimyristoylphosphatidylcholine (DMPC) bilayer. It is observed that particle shape and structure have significant effects on solvation, mobility, adsorption, and permeation behavior of the particles. While combustion-generated carbon nanoparticles with an aspect ratio close to unity prefer to stay near the membrane center, precursors with other shapes mostly reside within the hydrocarbon tail region of the membrane. Carbon nanoparticles are not trapped in a local region even inside the membranes but move freely with a speed depending on their molecular weight. The adsorption of the particles on the surface of the biological membrane is comparable to thermal fluctuations because the weak segregation effect by water molecules is the main driving force to the adsorption behavior. The bigger the precursors are, the stronger they are bound to the membrane surface. The presence of combustion-generated nanoparticles inside the membrane perturbs local lipid density by pushing the neighboring lipid molecules away from the nanoparticles. This, coupled with thermal fluctuations, can induce an instantaneous membrane pore to allow water protrusion. From the umbrella sampling method, the potential of mean force for the permeation of carbona nanoparticles into the bilayer was also obtained. Surprisingly, elongated particles have a free energy barrier an order of magnitude smaller compared with more round ones. In addition, the round carbon nanoparticles showed strong hysteresis due to the local trapping of water molecules. Although the carbon soot precursors studied in this work are not the well-known carbon nanoparticles such as fullerenes or carbon nanotubes, the qualitative features of this study may be applicable to them as well.},
   google_scholar_id = {eq2jaN3J8jMC},
   dimensions   = {true}
+}
+@article {liu2020molecular,
+	author = {Changjiang Liu and Paolo Elvati and Angela Violi},
+	title = {Molecular Dynamics Study of Dehydrated Lipopolysaccharide Membrane},
+	elocation-id = {2020.05.31.126326},
+	year = {2020},
+	doi = {10.1101/2020.05.31.126326},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {The outer membrane of bacteria is known to play an important role in the rapid response to desiccation, although the causes and the extent of these effects are still mostly unclear. For this reason, in this work we study the desiccation response of the Gram-negative lipopolysaccha-ride (LPS) bacterial outer membranes. By analyzing molecular dynamics simulations of LPS membranes of different composition during desiccation, we identified the formation of a rigid protective layer of polysaccharides that not only reduces the water evaporation but is also able to indirectly preserve several structural features and as such membrane functionality. Overall, we found that the presence of polysaccharide layer is critical in the conservation of a layer of water in proximity of the hydrophobic region as well as the structure of the lipids acyl chain structure.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2020/06/01/2020.05.31.126326},
+	eprint = {https://www.biorxiv.org/content/early/2020/06/01/2020.05.31.126326.full.pdf},
+	journal = {bioRxiv},
+  dimensions   = {true},
+  preview      = {liu2020molecular.jpg},
 }
 @article{izvekov2006coarse,
   title        = {A Coarse-Grained Molecular Dynamics Study of Carbon Nanoparticle Aggregation},

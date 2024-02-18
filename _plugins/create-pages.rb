@@ -12,6 +12,8 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'person.liquid') # Ensure this matches your layout file's name
       self.data['page_data'] = yaml_content # Pass the whole YAML content
+      self.data['toc'] ||= {} # This line initializes 'toc' as an empty hash if it's nil
+      self.data['toc']['sidebar'] = "left"
     end
   end
 
