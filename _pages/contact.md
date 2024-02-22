@@ -4,10 +4,13 @@ permalink: /contact/
 title: Contact
 nav: true
 nav_order: 8
-description: Email contact is preferred
 toc:
   sidebar: left
 ---
+
+## Email us!
+
+<avioli@umich.edu>
 
 ## Lab/Office
 
@@ -32,6 +35,3 @@ Department of Mechanical Engineering
 2350 Hayward St.
 Ann Arbor, MI 48109-2125
 ```
-
-## Email Us
-<avioli@umich.edu>

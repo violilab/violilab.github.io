@@ -4,12 +4,12 @@
 
 title: The Violi Lab # the website title (if blank, full name will be used instead)
 first_name: Angela
-middle_name: 
+middle_name:
 last_name: Violi
 email: avioli@umich.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The Violi Lab is a computational chemistry lab, focusing on nanoparticles, proteins, membrane interactions, and machine learning.
-footer_text: 
+footer_text:
 keywords: nanoparticle, proteins, machine learning, membrane # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -128,7 +128,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: # blog_name will be displayed in your blog page
-blog_description: 
+blog_description:
 permalink: /blog/:year/:title/
 
 # Pagination
