@@ -13,6 +13,8 @@ children:
     permalink: /people/elvati
   - title: Matt Raymond
     permalink: /people/mattrmd
+  - title: Mohammed I. Radaideh
+    permalink: /people/malradai
 
 members:
   - name: Angela Violi
@@ -21,5 +23,7 @@ members:
     uniquename: elvati
   - name: Matt Raymond
     uniquename: mattrmd
+  - title: Mohammed I. Radaideh
+    permalink: malradai
 former_members:
 ---

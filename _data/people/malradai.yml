@@ -1,0 +1,39 @@
+name: Mohammed I. Radaideh
+uniquename: malradai
+headshot: malradai.jpg
+cv:
+  - title: Education
+    type: time_table
+    contents:
+      - title: Doctor of Philosophy in Mechanical Engineering
+        institution: Khalifa University, Abu Dhabi, UAE
+        year: 2019 - 2023
+      - title: Master of Engineering in Mechanical Engineering
+        institution: Jordan University of Science and Technology, Al Ramtha, Jordan
+        year: 2017 - 2019
+      - title: Master of Engineering in Mechanical Engineering
+        institution: Jordan University of Science and Technology, Al Ramtha, Jordan
+        year: 2011 - 2016
+
+  - title: Experience
+    type: time_table
+    contents:
+      - title: Postdoctoral Research Fellow
+        institution: University of Michigan, Ann Arbor, MI
+        year: 2023
+      - title: Postdoctoral Research Fellow
+        institution: Khalifa University, Abu Dhabi, UAE
+        year: 2023
+      - title: Graduate Research And Teaching Assistant
+        institution: Khalifa University, Abu Dhabi, UAE
+        year: 2019 - 2023
+      - title: Teaching Assistant
+        institution: Jordan University of Science and Technology, Al Ramtha, Jordan
+        year: 2017 - 2019
+
+  - title: Honors and Awards
+    type: time_table
+    contents:
+      - year: Placeholder
+        items:
+          - Placeholder awards and honors to be listed here.

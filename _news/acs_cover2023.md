@@ -3,7 +3,7 @@ layout: post
 date: 2023-04-19 00:00:00-0400
 inline: false
 related_posts: false
-title: 2023 Acs Paper Wins Journal Cover!
+title: 2023 ACS Paper Wins Journal Cover!
 img: assets/img/news/elvati2023molecular_cover.jpg
 ---
 
