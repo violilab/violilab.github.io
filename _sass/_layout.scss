@@ -68,6 +68,9 @@ body.sticky-bottom-footer {
     position: absolute;
     color: white;
     z-index: 2; // Ensure text appears over the image
+    // background-color: rgba($purple-color, 0.5); // Add a semi-transparent background to improve readability
+    // padding: 0.0em 0.3em; // Add padding to the text
+    // border-radius: 0.05em;
     
     &.hero-headline {
       top: 10%;
@@ -77,7 +80,7 @@ body.sticky-bottom-footer {
     }
     
     &.hero-tagline {
-      bottom: 10%;
+      bottom: 2.5%;
       font-size: 2em;
       text-align: right;
       right: 5%;
