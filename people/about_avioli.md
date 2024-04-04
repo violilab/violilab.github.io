@@ -2,7 +2,7 @@
 
 Reaction Mechanisms for Real Fuels, Nanoparticle Growth and Self-assembly, Nanoparticle Interactions with Biomolecular Systems, Molecular Simulations, Applied Chemical Kinetics, Aerosols
 
-##### Professional Experince
+##### Professional Experience
 
 **9/1/2015 - Present**
 
