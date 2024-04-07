@@ -25,5 +25,23 @@ members:
     uniquename: mattrmd
   - title: Mohammed I. Radaideh
     permalink: malradai
-former_members:
+
+undergrads:
+  - name: Alienna Glenn
+    uniquename: aliennag
+  - name: Luke Wesseln
+    uniquename: lukejwes
+  - name: William Brown
+    uniquename: willbrwn
+  - name: Sergio Sanchez
+    uniquename: sergioq
+  - name: Tianjie Qiu
+    uniquename: tjqiu
+  - name: Maxwell Topping
+    uniquename: toppingm
+  - name: Jordan Vinh
+    uniquename: jtvinh
+
+# alumni:
+#   - 
 ---
