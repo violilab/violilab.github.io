@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-05-21 00:11:24-0400
+date: 2024-05-21 11:24:00-0400
 inline: false
 related_posts: false
 title: Matt Raymond inducted into the 2024 ECE Honor Roll
