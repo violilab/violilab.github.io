@@ -4,7 +4,7 @@ permalink: /outreach/
 title: Outreach and Events
 description:
 nav: true
-nav_order: 7
+nav_order: 5
 ---
 
 ## PhD Candidate In Violi Lab Speaks At U Of M Rackham Graduate School King Talks

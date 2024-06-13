@@ -4,7 +4,7 @@ permalink: /people/
 title: People
 description: Members of the Violi Lab
 nav: true
-nav_order: 7
+nav_order: 6
 dropdown: true
 children:
   - title: Angela Violi
