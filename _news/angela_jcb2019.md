@@ -4,12 +4,12 @@ date: 2019-11-29 00:00:00-0400
 inline: false
 related_posts: false
 title: Angela Violi Receives The J. Cordell Breed Award For Women Leaders
-img: assets/img/news/avioli2015.jpg
+img: assets/img/news/avioli2015.png
 ---
 
 <div class="row mt-4 justify-content-center">
     <div class="col-sm-12 col-md-6">
-        {% include figure.liquid loading="eager" path="assets/img/news/avioli2015.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/news/avioli2015.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

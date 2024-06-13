@@ -4,12 +4,12 @@ date: 2020-04-17 00:00:00-0400
 inline: false
 related_posts: false
 title: Jacob Saldinger Is Awarded The 2020 Nsf Graduate Research Fellowship!
-img: assets/img/news/jsald2020.jpg
+img: assets/img/news/jsald2020.png
 ---
 
 <div class="row mt-4 justify-content-center">
     <div class="col-sm-12 col-md-6">
-        {% include figure.liquid loading="eager" path="assets/img/news/jsald2020.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/news/jsald2020.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

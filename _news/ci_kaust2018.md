@@ -8,10 +8,10 @@ title: Combustion Institute Summer School At Kaust
 
 <div class="row mt-4 justify-content-center">
     <div class="col-sm-12 col-md-12">
-        {% include figure.liquid loading="eager" path="assets/img/news/angela_combustion2018.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/news/angela_combustion2018.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-12 col-md-12">
-        {% include figure.liquid loading="eager" path="assets/img/news/panel_combustion2018.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/news/panel_combustion2018.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

@@ -8,7 +8,7 @@ title: High Cited Research In J. Aerosol Science
 
 <div class="row mt-4 justify-content-center">
     <div class="col-sm-12 col-md-6">
-        {% include figure.liquid loading="eager" path="assets/img/news/aerosol2016.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/news/aerosol2016.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

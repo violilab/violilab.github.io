@@ -14,4 +14,4 @@ img: assets/img/news/avioli2021.jpg
 </div>
 
 Congratulations, Angela!
-[[Press Release](https://me.engin.umich.edu/news-events/news/angela-violi-and-jesse-capecelatro-receive-2021-mechanical-engineering-department/)]
+[Press Release](https://me.engin.umich.edu/news-events/news/angela-violi-and-jesse-capecelatro-receive-2021-mechanical-engineering-department/)
