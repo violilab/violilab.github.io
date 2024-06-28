@@ -13,5 +13,5 @@ img: assets/img/news/beyster2024.jpg
     </div>
 </div>
 
-PhD Candidate [Matt Raymond](/people/mattrmd) has received the [2024-2025 J. Robert Beyster Computational Innovation Graduate Fellowship](https://beyster.engin.umich.edu/fellows-program/fellows/) for his work on machine learning in nanochemistry, with application for nanomedicine!
+PhD Candidate [Matt Raymond](/people/mattrmd) has received the [2024-2025 J. Robert Beyster Computational Innovation Graduate Fellowship](https://ece.engin.umich.edu/stories/matt-raymond-receives-beyster-fellowship-to-support-research-on-nanoscale-particle-design) for his work on machine learning in nanochemistry, with application for nanomedicine!
 This fellowship includes full tuition, stipend, and insurance for the 2024-2025 academic year.
