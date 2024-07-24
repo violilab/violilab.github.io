@@ -25,3 +25,11 @@ cv:
         year: 2020
         institution: Chapman University, Orange, CA
         description: Magna cum laude
+
+  - title: Honors and Awards
+    type: time_table
+    contents:
+      - year: 2024
+        items:
+          - <a href="https://beyster.engin.umich.edu/fellows-program/fellows/">2024-2025 J. Robert Beyster Computational Innovation Graduate Fellow</a>
+          - <a href="https://ece.engin.umich.edu/stories/four-students-inducted-into-the-2023-2024-excellence-in-ece-honor-roll">2024 ECE Honor Roll</a>

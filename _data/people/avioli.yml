@@ -62,9 +62,9 @@ cv:
         institution: Institute of Research on Combustion (IRC), Naples, Italy
         year: 1995 - 1996
 
-  - title: Honors and Awards
-    type: time_table
-    contents:
-      - year: Placeholder
-        items:
-          - Placeholder awards and honors to be listed here.
+  # - title: Honors and Awards
+  #   type: time_table
+  #   contents:
+  #     - year: Placeholder
+  #       items:
+  #         - Placeholder awards and honors to be listed here.
