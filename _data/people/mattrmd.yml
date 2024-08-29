@@ -17,7 +17,7 @@ cv:
       - title: Ph.D. Electrical Engineering
         year: Present
         institution: University of Michigan, Ann Arbor, MI
-        description: Signal and Image Processing and Machine Learning track
+        description: Signal and Image Processing and Machine Learning
       - title: M.Sc. Computer Science
         year: 2022
         institution: University of Michigan, Ann Arbor, MI
@@ -31,5 +31,6 @@ cv:
     contents:
       - year: 2024
         items:
+          - <a href="https://midwest-ml.org/2024/#:~:text=Joint%20optimization%20significantly%20improves%20gradient%20boosting">"Top 15" poster award at the 2024 Midwest Machine Learning Symposium</a>
           - <a href="https://beyster.engin.umich.edu/fellows-program/fellows/">2024-2025 J. Robert Beyster Computational Innovation Graduate Fellow</a>
           - <a href="https://ece.engin.umich.edu/stories/four-students-inducted-into-the-2023-2024-excellence-in-ece-honor-roll">2024 ECE Honor Roll</a>
