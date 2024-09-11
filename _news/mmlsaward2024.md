@@ -3,7 +3,7 @@ layout: post
 date: 2024-08-23 11:20:00-0400
 inline: false
 related_posts: false
-title: "Top 15" Poster at MMLS
+title: '"Top 15 Poster" at MMLS'
 img: assets/img/news/mmls2024.png
 ---
 

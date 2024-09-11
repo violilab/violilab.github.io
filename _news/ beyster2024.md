@@ -9,7 +9,7 @@ img: assets/img/news/beyster2024.jpg
 
 <div class="row mt-4 justify-content-center">
     <div class="col-sm-12 col-md-6">
-        {% include figure.liquid loading="eager" path="assets/img/news/beyster2024.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/news/mattrmd2024.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

@@ -7,6 +7,30 @@ nav: true
 nav_order: 5
 ---
 
+## Angela Receives U of M DEI Faculty Grant for Undergraduate Instruction
+
+*Academic Year 2023 -- 2024*
+
+Angela has received a DEI Faculty Grant for the University of Michigan Office of Culture, Community, and Equity (OCCE).
+This grant is "awarded to innovative activities that help create an engaging and inclusive environment for ... students, faculty and staff."
+Her project is titled "DEI-FY 101: Driving Equity, Inclusion and Success for Early Undergraduates".
+
+View the full story [here](https://culture.engin.umich.edu/diversity-equity-and-inclusion-dei-faculty-grant/).
+
+## Angela hosts "Engineering Undercover: From Surviving to Thriving"
+
+*Oct 27, 2023*
+
+<div class="row mt-4 justify-content-center">
+    <div class="col-sm-12 col-md-6">
+        {% include figure.liquid loading="eager" path="assets/img/outreach/surviving2023.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Angela Violi hosts a student panel to discuss struggles and triumphs of their academic journeys to inspire other students and answer the question: "What do I wish I had known earlier that would’ve made my academic journey easier?"
+
+View the full story [here](https://me.engin.umich.edu/news-events/event/engineering-undercover-from-surviving-to-thriving/).
+
 ## PhD Candidate In Violi Lab Speaks At U Of M Rackham Graduate School King Talks
 
 *Jan 30, 2020*
