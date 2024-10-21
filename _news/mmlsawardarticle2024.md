@@ -3,7 +3,7 @@ layout: post
 date: 2024-10-17 14:55:00-0400
 inline: false
 related_posts: false
-title: UMich ECE press release on Matt's '"Top 15 Poster" at MMLS'
+title: UMich ECE Press Release on Matt's '"Top 15 Poster" at MMLS'
 img: assets/img/news/mmls2024.png
 ---
 

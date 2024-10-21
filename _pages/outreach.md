@@ -7,6 +7,20 @@ nav: true
 nav_order: 5
 ---
 
+## Angela Presents on Building Inclusive Communities for the UMich DEI Lecture Series
+
+*Oct 15, 2024*
+
+<div class="row mt-4 justify-content-center">
+    <div class="col-sm-12 col-md-6">
+        {% include figure.liquid loading="eager" path="assets/img/news/dei2024.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+[Angela Violi](/people/avioli) presented a lecture on "Engineering SUCCESS (Supporting Undergraduate Career, Community Engagement, and Soft Skills in DEI) an innovative program designed to empower undergraduate students by connecting them with young alumni for invaluable insights on academic and professional pathways.
+In addition to academic guidance, the program emphasizes the importance of soft skills such as effective communication, teamwork and leadership, which are essential for professional success."
+Her lecture will be available to watch [here](https://culture.engin.umich.edu/an-inclusive-campus/dei-lecture-series/), and the archived event calendar can be found [here](https://events.umich.edu/event/127479).
+
 ## Angela Receives U of M DEI Faculty Grant for Undergraduate Instruction
 
 *Academic Year 2023 -- 2024*
