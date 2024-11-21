@@ -1,3 +1,14 @@
+@article{raymond2024ntp,
+	author={Raymond, Matt and Elvati, Paolo and Saldinger, Jacob Charles and Lin, Jonathan and Shi, Xuetao and Violi, Angela},
+	title={Machine learning models for Si nanoparticle growth in nonthermal plasma},
+	month={october},
+	year={2024},
+	abstract={Nanoparticles (NPs) formed in nonthermal plasmas (NTPs) can have unique properties and applications. However, modeling their growth in these environments presents significant challenges due to the non-equilibrium nature of NTPs, making them computationally expensive to describe. In this work, we address the challenges associated with accelerating the estimation of parameters needed for these models.Specifically, we explore how different machine learning models can be tailored to improve prediction outcomes. We apply these methods to reactive classical molecular dynamics data, which capture the processes associated with colliding silane fragments in NTPs. These reactions exemplify processes where qualitative trends are clear, but their quantification is challenging, hard to generalize, and requires time-consuming simulations. Our results demonstrate that good prediction performance can be achieved when appropriate loss functions are implemented and correct invariances are imposed. While the diversity of molecules used in the training set is critical for accurate prediction, our findings indicate that only a fraction (15-25%) of the energy and temperature sampling is required to achieve high levels of accuracy. This suggests a substantial reduction in computational effort is possible for similar systems.},
+	pdf={https://mraymond.info/assets/pdf/ntp_silicon.pdf},
+  preview = {raymond2024ntp.gif},
+  selected={true},
+}
+
 @article{sun2024,
   title={Can Machine Learning Overcome the 95{\%} Failure Rate and Reality that Only 30{\%} of Approved Cancer Drugs Meaningfully Extend Patient Survival?},
   author={Sun, Duxin and Macedonia, Christian and Chen, Zhigang and Chandrasekaran, Sriram and Najarian, Kayvan and Zhou, Simon and Cernak, Tim and Ellingrod, Vicki L. and Jagadish, H. V. and Marini, Bernard and Pai, Manjunath and Violi, Angela and Rech, Jason C. and Wang, Shaomeng and Li, Yan and Athey, Brian and Omenn, Gilbert S.},
@@ -15,17 +26,19 @@
   html = {https://pubs.acs.org/doi/full/10.1021/acs.jmedchem.4c01684}
 }
 
-@misc{raymond2024joint,
+@inproceedings{raymond2024joint,
   title={Joint Optimization of Piecewise Linear Ensembles}, 
   author={Matt Raymond and Angela Violi and Clayton Scott},
-  month={may},
+  month={sept},
   year={2024},
   arxiv={2405.00303},
   dimensions = {true},
   primaryClass={cs.LG},
   preview = {raymond2024joint.png},
   selected={true},
-  abstract={Tree ensembles achieve state-of-the-art performance despite being greedily optimized. Global refinement (GR) reduces greediness by jointly and globally optimizing all constant leaves. We propose Joint Optimization of Piecewise Linear ENsembles (JOPLEN), a piecewise-linear extension of GR. Compared to GR, JOPLEN improves model flexibility and can apply common penalties, including sparsity-promoting matrix norms and subspace-norms, to nonlinear prediction. We evaluate the Frobenius norm, ℓ2,1 norm, and Laplacian regularization for 146 regression and classification datasets; JOPLEN, combined with GB trees and RF, achieves superior performance in both settings. Additionally, JOPLEN with a nuclear norm penalty empirically learns smooth and subspace-aligned functions. Finally, we perform multitask feature selection by extending the Dirty LASSO. JOPLEN Dirty LASSO achieves a superior feature sparsity/performance tradeoff to linear and gradient boosted approaches. We anticipate that JOPLEN will improve regression, classification, and feature selection across many fields.}
+  abstract={Tree ensembles achieve state-of-the-art performance despite being greedily optimized. Global refinement (GR) reduces greediness by jointly and globally optimizing all constant leaves. We propose Joint Optimization of Piecewise Linear ENsembles (JOPLEN), a piecewise-linear extension of GR. Compared to GR, JOPLEN improves model flexibility and can apply common penalties, including sparsity-promoting matrix norms and subspace-norms, to nonlinear prediction. We evaluate the Frobenius norm, ℓ2,1 norm, and Laplacian regularization for 146 regression and classification datasets; JOPLEN, combined with GB trees and RF, achieves superior performance in both settings. Additionally, JOPLEN with a nuclear norm penalty empirically learns smooth and subspace-aligned functions. Finally, we perform multitask feature selection by extending the Dirty LASSO. JOPLEN Dirty LASSO achieves a superior feature sparsity/performance tradeoff to linear and gradient boosted approaches. We anticipate that JOPLEN will improve regression, classification, and feature selection across many fields.},
+  doi = {10.1109/MLSP58920.2024.10734791},
+  booktitle = {IEEE 34th International Workshop on Machine Learning for Signal Processing},
 }
 
 @misc{raymond2024universal,
