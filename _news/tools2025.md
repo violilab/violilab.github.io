@@ -7,9 +7,9 @@ title: Matt Raymond presents on ML for nanoscale interactions
 img: assets/img/news/tools2025.jpg
 ---
 
-<div class="row mt-4 justify-content-center">
-    <div class="col-sm-12 col-md-6">
-        {% include figure.liquid loading="eager" path="assets/img/news/tools2025.jpg" class="img-fluid rounded z-depth-1" %}
+<div class="row mjustifyt-4 -content-center">
+    <div class="col-sm-12 col-md-12
+        {% include figure.liquid loading="eager" path="assets/img/news/tools2025.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
