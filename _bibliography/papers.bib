@@ -1,14 +1,66 @@
-@article{radaideh2025,
+@article{radaideh2025bayesianensemble,
+  title = {A Bayesian Ensemble Approach for Improved Sustainable Aviation Fuel Modeling},
+  journal = {Energy Conversion and Management: X},
+  year = {2025},
+  note = {Revised Manuscript Submitted, Manuscript Number: ECMX-D-25-00548},
+  author = {Radaideh, Mohammed I. and Radaideh, Majdi I. and Violi, A.},
+  html = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5211901},
+  doi = {10.2139/ssrn.5211901},
+  abstract = {
+    In this work, we introduce a new methodology to combine the available methods to predict the properties of complex hydrocarbon mixtures such as aviation fuels. Due to the complexity of aviation fuels, the available methods perform well individually on some of the experimental observations and vice versa on others when a surrogate aviation fuel is defined and used. To this end, we introduce a new ensemble model based on the existing methods that combine and weigh their predictions. We employ the probabilistic Bayesian approach to predict aviation fuel properties with confidence levels. This is necessary because the available experimental data for aviation fuels is generally limited, which leads to overfitting. We adopt both “interpretable” Bayesian regression and a more “black-box” approach to Bayesian neural networks. An ensemble of predictive methods provided better predictions than the individual methods with robust confidence levels for three properties considered: mass density, kinematic viscosity, and flash point. A significant reduction in the mean absolute percentage error was obtained for mass density predictions, from 1.25% to 0.57% and 0.42%, using the Bayesian linear regression (BLR) and Bayesian Neural Network (BNN), respectively. The error in kinematic viscosity predictions was reduced from 17.25% to 9.02% and 6.79% using BLR and BNN, respectively. The error in flash point predictions is reduced from 9.04% to 5.83% by BLR and to 5.51% by BNN. The importance of the methods in the ensemble did not fully follow their individual performance, where the accurate models may not be the most important. The ensemble approach allows for the inclusion of new methods, even if they are slightly less accurate. This methodology can be extended to predict other aviation fuel properties and incorporate any predictive model. It also offers a way to generate valid training data for generative Artificial Intelligence (AI) models, helping to address the scarcity of aviation fuel data. 
+  },
+}
+
+@inproceedings{radaideh2025bayesianapproach,
+  title = {A Bayesian Approach to Predict Sustainable Aviation Fuels Properties Using an Ensemble of Property Methods},
+  booktitle = {AIAA AVIATION Forum and Exposition},
+  year = {2025},
+  address = {Las Vegas, Nevada},
+  month = {July},
+  doi = {https://doi.org/10.2514/6.2025-3258},
+  author = {Radaideh, Mohammed I. and Radaideh, Majdi I. and Violi, A.},
+  html = {https://doi.org/10.2514/6.2025-3258},
+  doi = {10.2514/6.2025-3258},
+  abstract = {
+    We propose in this work a new methodology for predicting aviation fuel properties by combining the predictions of existing methods into an ensemble. The performance of current methods varies among different types of aviation fuels, including conventional jet fuels, Sustainable Aviation Fuels (SAF), and biofuels. Aviation fuels are a complex mixture of several hydrocarbons, which may also lead to high prediction errors. The predictions of the methods in the ensemble are weighted, where the weights are obtained using a probabilistic Bayesian linear regression (BLR) model. We tested the methodology used to predict the mass density of different aviation fuels. We also compared the results of BLR with those of deterministic optimization using Particle Swarm Optimization (PSO). Both BLR and PSO reduced the prediction error of mass density from 1.24% to 0.57% and 0.49%, respectively. We noticed a trade-off between uncertainty and accuracy in BLR results, where higher accuracy is accompanied by higher uncertainty. Accordingly, more accurate results provided by PSO or possibly other deterministic approaches may be misleading, and uncertainty should be considered to draw more robust conclusions. Results also showed that the individual performance of the methods does not follow their importance in the ensemble, i.e., the most accurate models do not necessarily have the highest weights; less accurate models could be more important. As a result, new predicting methods can be added even if they are, to some extent, less accurate than the methods in the ensemble. 
+  },
+}
+
+@inproceedings{radaideh2025generative,
+  title = {Generative AI Approach for Synthetic Aviation Fuels Data Generation},
+  booktitle = {International Mechanical Engineering Congress \& Exposition},
+  year = {2025},
+  month = {November},
+  author = {Radaideh, Mohammed I. and Radaideh, Majdi I. and Violi, A.},
+  pdf = {IMECE_SAF_Gen.pdf},
+  abstract = {
+    Data scarcity is a common problem related to aviation fuels. Many studies are still developing predictive models to predict aviation fuel properties using fuel composition to help in Sustainable Aviation Fuels (SAF) certification. However, due to the data scarcity, most of these models were trained using limited experimental data and are prone to overfitting. To this end, we utilize generative AI models as a data augmentation technique to address the data scarcity of aviation fuels. The tabular data of aviation fuels considered includes experimental data for fuel composition and nine thermophysical properties. This data is used to train ForestDiffusion, a recently developed diffusion generative AI model for tabular data generation without the need for many training samples. The performance of ForestDiffusion is compared with another simple model, Synthetic Minority Oversampling TEchnique (SMOTE), that is commonly used as a baseline. Different metrics are used to assess the quality of the synthetic data generated by ForestDiffusion and SMOTE. Results showed that the simple model SMOTE provided better synthetic data fidelity, diversity, and machine learning utility. Still, it has lower real data privacy protection than ForestDiffusion, making the latter a more desirable choice regardless of the advantages that SMOTE provided, and showing the importance of considering multiple assessment metrics to have more balanced performance conclusions.
+  },
+}
+
+@inproceedings{radaideh2025optimal,
+  title = {Optimal Sets of Molecules to Predict Aviation Fuel Properties},
+  booktitle = {2025 Energy \& Propulsion Conference \& Exhibition},
+  year = {2025},
+  month = {October},
+  html = {https://www.sae.org/publications/technical-papers/content/2025-01-0395/},
+  author = {Radaideh, Mohammed I. and Kim, D. and Radaideh, Majdi I. and Violi, A.},
+  abstract = {
+    The complexity and variability of modern aviation fuels necessitate the development of robust and efficient tools to assess their properties accurately, particularly within the certification framework established by the American Society for Testing and Materials (ASTM). Therefore, previous research has developed predictive models to reduce the experimental burden by predicting aviation fuel properties from broad chemical classes. While two-dimensional Gas Chromatography (GC$\times$GC) provides detailed compositional information, it only identifies the weight of hydrocarbon families (aromatics, cycloalkanes, n-alkanes, iso-alkanes), not individual molecules. Aviation fuels are complex, and their composition can contain more than 60 key classes. As a result, an exceptionally high number of possible molecule combinations makes random selection prone to high errors in property prediction. We will use a Monte Carlo approach to search for the optimal combination of 64 hydrocarbon molecules from this vast combinatorial space. By exploring up to 500 million combinations, we aim to determine the molecule set that best predicts mass density, kinematic viscosity, and heat of combustion using linear mixing rules. These rules calculate the properties of molecule mixtures using the weight of each molecule in the mixture and the pure molecules' properties. We will utilize experimental data for various aviation fuels, including conventional jet fuels, sustainable aviation fuels, and rocket propulsion fuels. This research benefits the surrogate fuel analysis and will provide insights into the best isomers or molecules to predict aviation fuel properties with the least error. This work will help deliver aviation fuel producers with a relatively accurate pre-screening tool for property prediction, minimizing the need for iterative experimental processes.
+  },
+}
+
+
+@article{radaideh2025efficient,
 title = {Efficient sampling of polycyclic aromatic compounds for free energy predictions through active learning},
 journal = {Energy and AI},
-abbr = {Energy and AI},
 volume = {21},
 pages = {100528},
 year = {2025},
 issn = {2666-5468},
 doi = {https://doi.org/10.1016/j.egyai.2025.100528},
 html = {https://www.sciencedirect.com/science/article/pii/S2666546825000606},
-author = {Radaideh, Mohammed I and  Raymond, Matt and  Elvati, Paolo and Saldinger, Jacob C and Radaideh, Majdi I and Violi, Angela},
+author = {Radaideh, Mohammed I. and  Raymond, Matt and  Elvati, Paolo and Saldinger, Jacob C and Radaideh, Majdi I. and Violi, Angela},
 abstract = {The physical growth of Polycyclic Aromatic Compounds (PACs) to soot particles plays a significant role in understanding the chemistry of soot formation. Insights into the process can be gained from PACs' free energy of dimerization landscape. However, because the infeasibly large space of possible PAC dimers cannot be exhaustively simulated, researchers must train machine learning models on a subset of data to impute the rest. To this end, we propose and assess an active learning approach to discovering the optimal PACs for training a machine learning model to predict PACs' association and dissociation free energies. The comparison between active learning and random sampling showed that active learning has faster loss convergence, requiring fewer training samples to reach the same level of accuracy. The trained model accurately modeled unseen PACs and exhibited robustness against changes in the sampling space used to train the model. More broadly, this work shows how active learning can optimize the design and improve the understanding of more expensive models in specific domains.},
 preview = {eandai2025.jpg}
 }
@@ -22,14 +74,12 @@ preview = {eandai2025.jpg}
 	abstract={Multi-modal generative models typically require abundant training data from multi-modal joint distributions, which is often unavailable in the life sciences. We propose to treat each modality as a marginal distribution and correct their independent diffusion processes to sample from their joint distribution. Specifically, we introduce "joint diffusion sampling," a method that generates a sample from joint distributions using pre-trained models for individual (uni-modal) marginal distributions and minimal data from the (multi-modal) joint distribution. We demonstrate preliminary uni- and multi-modal results for images, molecules, and Boolean values, and discuss multi-modal applications of our approach.},
 	pdf={https://openreview.net/pdf?id=1o89PN84NH},
   html={https://openreview.net/forum?id=1o89PN84NH},
-	abbr = {ICML FM4LS},
 }
 
 @article{raymond2025ntp,
 	author={Raymond, Matt and Elvati, Paolo and Saldinger, Jacob Charles and Lin, Jonathan and Shi, Xuetao and Violi, Angela},
 	title={Machine learning models for Si nanoparticle growth in nonthermal plasma},
 	journal={Plasma Sources Science and Technology},
-  abbr={IOP PSST},
 	url={http://iopscience.iop.org/article/10.1088/1361-6595/adbae1},
 	year={2025},
 	abstract={Nanoparticles (NPs) formed in nonthermal plasmas (NTPs) can have unique properties and applications. However, modeling their growth in these environments presents significant challenges due to the non-equilibrium nature of NTPs, making them computationally expensive to describe. In this work, we address the challenges associated with accelerating the estimation of parameters needed for these models. Specifically, we explore how different machine learning models can be tailored to improve prediction outcomes. We apply these methods to reactive classical molecular dynamics data, which capture the processes associated with colliding silane fragments in NTPs. These reactions exemplify processes where qualitative trends are clear, but their quantification is challenging, hard to generalize, and requires time-consuming simulations. Our results demonstrate that good prediction performance can be achieved when appropriate loss functions are implemented and correct invariances are imposed. While the diversity of molecules used in the training set is critical for accurate prediction, our findings indicate that only a fraction (15-25%) of the energy and temperature sampling is required to achieve high levels of accuracy. This suggests a substantial reduction in computational effort is possible for similar systems.},
@@ -39,6 +89,16 @@ preview = {eandai2025.jpg}
   doi={10.1088/1361-6595/adbae1},
   selected={true},
   arxiv={2501.00003},
+}
+
+@article{baranwal2024spin,
+  title = {{{SPIN}}: {{A}} Data-Driven Model to Reduce Large Chemical Reaction Networks},
+  author = {Baranwal, Mayank and Saldinger, Jacob C. and Kim, Doohyun and Elvati, Paolo and Hero, Alfred O. and Violi, Angela},
+  year = {2024},
+  journal = {Fuel},
+  volume = {367},
+  doi = {10.1016/j.fuel.2024.131299},
+  url = {https://www.sciencedirect.com/science/article/pii/S0016236124004460},
 }
 
 @article{sun2024,
