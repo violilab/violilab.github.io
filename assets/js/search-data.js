@@ -407,6 +407,41 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/icmlfm4ls2025/";
+            },},{id: "news-mohammad-radaideh-presented-a-research-paper-at-the-2025-aiaa-aviation-forum-and-ascend",
+          title: 'Mohammad Radaideh presented a research paper at the 2025 AIAA Aviation Forum and...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/avioliasee2025/";
+            },},{id: "news-mohammad-radaideh-presented-a-research-paper-at-the-2025-aiaa-aviation-forum-and-ascend",
+          title: 'Mohammad Radaideh presented a research paper at the 2025 AIAA Aviation Forum and...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/avioliprinceton2025/";
+            },},{id: "news-mohammad-radaideh-presented-a-research-paper-at-the-2025-aiaa-aviation-forum-and-ascend",
+          title: 'Mohammad Radaideh presented a research paper at the 2025 AIAA Aviation Forum and...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/malradaiaiaa2025/";
+            },},{id: "news-mohammad-radaideh-received-the-micde-fellowship",
+          title: 'Mohammad Radaideh received the MICDE Fellowship',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/malradaifellow2025/";
+            },},{id: "news-mohammad-radaideh-presented-a-research-paper-at-the-2025-imece",
+          title: 'Mohammad Radaideh presented a research paper at the 2025 IMECE',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/malradaiimece2025/";
+            },},{id: "news-mohammad-radaideh-presented-presents-research-paper-at-the-2025-sae-energy-amp-propulsion-conference-amp-exhibition",
+          title: 'Mohammad Radaideh presented presents research paper at the 2025 SAE Energy &amp;amp; Propulsion...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/malradaisae2025/";
+            },},{id: "news-angela-violi-named-senior-fellow-in-the-michigan-society-of-fellows",
+          title: 'Angela Violi named Senior Fellow in the Michigan Society of Fellows',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/violifellow2025/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
