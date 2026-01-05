@@ -442,6 +442,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/violifellow2025/";
+            },},{id: "news-science-café-zapping-39-forever-chemicals-39-a-michigan-made-solution",
+          title: 'Science Café: Zapping &amp;#39;Forever Chemicals&amp;#39;: A Michigan-Made Solution',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/sciencecafe2025/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
