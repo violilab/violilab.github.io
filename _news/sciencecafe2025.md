@@ -20,5 +20,4 @@ img:
 </div>
 
 [Angela Violi](/people/avioli) and [Paolo Elvati](/people/elvati) explain how they use advanced supercomputer simulations to study how non-thermal plasmas can degrade PFAS ("forever chemicals") in a recent Science Café presentation.
-More details are available here:
-https://lsa.umich.edu/ummnh/news-events/all-events.detail.html/141324-21888581.html
+More details are available in [the press release](https://lsa.umich.edu/ummnh/news-events/all-events.detail.html/141324-21888581.html).
