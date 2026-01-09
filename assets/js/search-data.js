@@ -447,6 +447,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/sciencecafe2025/";
+            },},{id: "news-angela-named-the-dennis-assanis-collegiate-professor",
+          title: 'Angela named the Dennis Assanis Collegiate Professor',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/named2026/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
