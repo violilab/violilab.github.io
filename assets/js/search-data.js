@@ -102,11 +102,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/umich_highlight2016/";
-            },},{id: "news-we-presented-at-the-future-fuels-workshop-at-kaust",
-          title: 'We Presented At The Future Fuels Workshop at KAUST',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/kaust2016/";
             },},{id: "news-spie-highlight-our-research-in-gqds",
           title: 'SPIE Highlight Our Research In GQDs',
           description: "",
@@ -417,6 +412,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/avioliprinceton2025/";
+            },},{id: "news-",
+          title: '',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/jcheminfo2026/";
+            },},{id: "news-we-presented-at-the-future-fuels-workshop-at-kaust",
+          title: 'We Presented At The Future Fuels Workshop at KAUST',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/kaust2016/";
             },},{id: "news-mohammad-radaideh-presented-a-research-paper-at-the-2025-aiaa-aviation-forum-and-ascend",
           title: 'Mohammad Radaideh presented a research paper at the 2025 AIAA Aviation Forum and...',
           description: "",
@@ -452,11 +457,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/named2026/";
-            },},{id: "news-quot-universal-feature-selection-quot-published-in-the-journal-of-cheminformatics",
-          title: '\&amp;quot;Universal Feature Selection\&amp;quot; published in the Journal of Cheminformatics',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/jcheminfo2026/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
