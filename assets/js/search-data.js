@@ -452,6 +452,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/named2026/";
+            },},{id: "news-quot-universal-feature-selection-quot-published-in-the-journal-of-cheminformatics",
+          title: '\&amp;quot;Universal Feature Selection\&amp;quot; published in the Journal of Cheminformatics',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/jcheminfo2026/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
