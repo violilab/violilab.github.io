@@ -3,7 +3,7 @@ layout: post
 date: 2026-02-11 16:04:00-0400
 inline: false
 related_posts: false
-title: "Universal Feature Selection" published in the Journal of Cheminformatics
+title: "*Universal Feature Selection* published in the Journal of Cheminformatics"
 img: assets/img/publication_preview/raymond2025ntp.gif
 ---
 
