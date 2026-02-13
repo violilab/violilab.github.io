@@ -3,13 +3,13 @@ layout: post
 date: 2026-02-11 16:04:00-0400
 inline: false
 related_posts: false
-title: \"Universal Feature Selection\" published in the Journal of Cheminformatics
+title: "Universal Feature Selection" published in the Journal of Cheminformatics
 img: assets/img/publication_preview/raymond2025ntp.gif
 ---
 
 <div class="row mt-4 justify-content-center">
     <div class="col-sm-12 col-md-6">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/raymond2024universal.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/raymond2024universal.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
