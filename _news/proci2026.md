@@ -3,7 +3,7 @@ layout: post
 date: 2026-06-10 15:31:00-0400
 inline: false
 related_posts: false
-title: The Violi Lab has six papers in the 2026 Proceedings of the Combustion Institute
+title: The Violi Lab has five papers in the 2026 Proceedings of the Combustion Institute
 img: assets/img/publication_preview/raymond2026mapping.png
 ---
 
