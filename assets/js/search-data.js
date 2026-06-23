@@ -457,6 +457,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/jcheminfo2026/";
+            },},{id: "news-the-violi-lab-has-six-papers-in-the-2026-proceedings-of-the-combustion-institute",
+          title: 'The Violi Lab has six papers in the 2026 Proceedings of the Combustion...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/proci2026/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
