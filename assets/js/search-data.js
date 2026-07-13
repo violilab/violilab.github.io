@@ -65,6 +65,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/people/malradai";
               },
+            },{id: "dropdown-sneha-venkat",
+              title: "Sneha Venkat",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/people/saisneha";
+              },
             },{id: "nav-contact",
           title: "Contact",
           description: "",
