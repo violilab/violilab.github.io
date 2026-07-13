@@ -38,6 +38,9 @@ layout: default
                 </div>
             </div>
             {% endif %}
+            {% if page.page_data.bio %}
+            <div class="mt-2">{{ page.page_data.bio | markdownify }}</div>
+            {% endif %}
         </div>
     </header>
 

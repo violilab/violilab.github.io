@@ -15,6 +15,8 @@ children:
     permalink: /people/mattrmd
   - title: Mohammed I. Radaideh
     permalink: /people/malradai
+  - title: Sneha Venkat
+    permalink: /people/saisneha
 
 members:
   - name: Angela Violi
@@ -23,8 +25,10 @@ members:
     uniquename: elvati
   - name: Matt Raymond
     uniquename: mattrmd
-  - title: Mohammed I. Radaideh
-    permalink: malradai
+  - name: Mohammed I. Radaideh
+    uniquename: malradai
+  - name: Sneha Venkat
+    uniquename: saisneha
 
 undergrads:
   - name: Alienna Glenn

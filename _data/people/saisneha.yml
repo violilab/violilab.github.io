@@ -1,0 +1,41 @@
+name: Sai Sneha S V
+uniquename: saisneha
+headshot: saisneha2026.jpg
+bio: |
+  Sai Sneha S V is a Research Assistant in Prof. Angela Violi's lab, where she works on an interactive tool that visualizes the MechE faculty publication corpus to help surface connections across research areas.
+
+  Sneha is pursuing an MS in Data Science at the University of Michigan. Her interests span machine learning, natural language processing, and building data-driven systems, with a particular focus on applying GenAI and agentic workflows to real-world engineering problems. Before Michigan, she spent four years as a Software Developer at IBM, where she worked on semantic search, GenAI applications, and large-scale data systems. She also serves as a Software Engineering Intern at Mcity, contributing to an agentic data engine for autonomous vehicle research.
+cv:
+  - title: Academic Interests
+    type: list
+    contents:
+      - Machine learning
+      - Natural language processing
+      - Data-driven systems
+      - GenAI and agentic workflows
+
+  - title: Education
+    type: time_table
+    contents:
+      - title: M.S. Data Science
+        year: 2025 - 2027
+        institution: University of Michigan, Ann Arbor, MI
+      - title: B.E Computer Science Engineering
+        year: 2017 - 2021
+        institution: Visvevaraya Technological University, Karnataka, India
+
+  - title: Experience
+    type: time_table
+    contents:
+      - title: Research Assistant
+        year: 2026 - 2026
+        institution: Prof. Angela Violi's Lab, University of Michigan, Ann Arbor, MI
+        description: Works on an interactive tool that visualizes the MechE faculty publication corpus to help surface connections across research areas.
+      - title: Software Engineering Intern
+        year: 2026 - 2026
+        institution: Mcity, Ann Arbor, MI
+        description: Contributing to an agentic data engine for autonomous vehicle research.
+      - title: Software Developer
+        year: 2021 - 2025
+        institution: IBM
+        description: Spent four years working on semantic search, GenAI applications, and large-scale data systems.
