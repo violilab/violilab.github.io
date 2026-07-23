@@ -471,8 +471,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/jcheminfo2026/";
-            },},{id: "news-the-violi-lab-has-four-papers-in-the-2026-proceedings-of-the-combustion-institute",
-          title: 'The Violi Lab has four papers in the 2026 Proceedings of the Combustion...',
+            },},{id: "news-the-violi-lab-has-five-papers-at-the-41st-international-symposium-on-combustion-and-four-in-the-2026-proceedings",
+          title: 'The Violi Lab has five papers at the 41st International Symposium on Combustion...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/proci2026/";
