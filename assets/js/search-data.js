@@ -72,6 +72,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/people/saisneha";
               },
+            },{id: "dropdown-alyson-palmquist",
+              title: "Alyson Palmquist",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/people/alypalmq";
+              },
             },{id: "nav-contact",
           title: "Contact",
           description: "",
@@ -469,6 +476,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/proci2026/";
+            },},{id: "news-aly-palmquist-presents-at-the-2026-sure-student-showcase",
+          title: 'Aly Palmquist presents at the 2026 SURE Student Showcase',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/alypalmqsure2026/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
