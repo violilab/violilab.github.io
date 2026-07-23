@@ -17,6 +17,8 @@ children:
     permalink: /people/malradai
   - title: Sneha Venkat
     permalink: /people/saisneha
+  - title: Alyson Palmquist
+    permalink: /people/alypalmq
 
 members:
   - name: Angela Violi
@@ -29,6 +31,8 @@ members:
     uniquename: malradai
   - name: Sneha Venkat
     uniquename: saisneha
+  - name: Alyson Palmquist
+    uniquename: alypalmq
 
 undergrads:
   - name: Alienna Glenn
@@ -56,7 +60,7 @@ alumni:
   - name: Tyler Dillstrom
     uniquename: vtdillst
   - name: Jordan Lee
-    uniquename: unghe
+    uniquename: unghee
   - name: Kirk Turrentine
     uniquename: turrenk
   - name: Alex Shao Teng Chong

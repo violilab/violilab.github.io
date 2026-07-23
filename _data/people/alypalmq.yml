@@ -1,0 +1,32 @@
+name: Alyson Palmquist
+uniquename: alypalmq
+headshot: alypalmq2026.jpg
+bio: |
+  Alyson Palmquist is a temporary SURE student and Research Assistant in Prof. Angela Violi's lab, where she works on collecting and processing technical publications and grants, using natural language processing to create structured databases, and developing an AI-Driven Researcher Profiling and Collaboration Engine.
+
+  Alyson connected with Prof. Angela Violi's lab through the SURE program and presented her work at the SURE student showcase.
+
+  She is interested in all stages of working with data, from designing the acquisition methods to cleaning the data to creating polished presentations on analyses.
+cv:
+  - title: Academic Interests
+    type: list
+    contents:
+      - Data acquisition methods
+      - Data cleaning and processing
+      - Natural language processing
+      - Data analysis and visualization
+
+  - title: Education
+    type: time_table
+    contents:
+      - title: B.S. Mathematics and Data Science
+        year: In progress
+        institution: University of Michigan, Ann Arbor, MI
+
+  - title: Experience
+    type: time_table
+    contents:
+      - title: Temporary SURE Student & Research Assistant
+        year: 2026
+        institution: Prof. Angela Violi's Lab, University of Michigan, Ann Arbor, MI
+        description: Collects and processes technical publications and grants, using natural language processing to create structured databases and developing an AI-Driven Researcher Profiling and Collaboration Engine.
